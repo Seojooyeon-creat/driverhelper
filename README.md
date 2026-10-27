@@ -2,6 +2,10 @@
 
 외국인 렌터카 운전자용 모국어 주행 도우미.
 
+> **주의** 교통법 FAQ와 안내 문구는 법령 검수 전 초안이며 법적 효력이 없다. 스쿨존 좌표는 가짜 샘플 3곳이다. 실차 적용 전 반드시 검수할 것.
+>
+> 라이선스: 코드는 [MIT](LICENSE). 번들 폰트 Asta Sans는 42dot의 [SIL OFL 1.1](app/src/main/res/font/OFL.txt). Pleos SDK는 저장소에 포함하지 않으며 Maven 좌표로만 참조한다 (Pleos Playground 약관 제15조).
+
 ## 빌드
 JDK 17 필요 (기본 JDK가 24여도 됨, toolchain이 17로 고정).
 

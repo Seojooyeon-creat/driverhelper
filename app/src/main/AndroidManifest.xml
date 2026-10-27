@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature android:name="android.hardware.type.automotive" android:required="true" />
+
+    <!-- Pleos permissions are added in the phase whose code uses them (unused ones fail review). -->
+    <uses-permission android:name="pleos.car.permission.CAR_LIGHTS" /> <!-- TurnSignal -->
+    <uses-permission android:name="pleos.car.permission.CAR_DOORS" /> <!-- Door position -->
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN" /> <!-- GEAR_SELECTION -->
+
+    <application
+        android:name=".DriverHelperApp"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:resizeableActivity="true"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|density">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Gleo Interface: one intent-filter per function in assets/schema.json -->
+            <intent-filter>
+                <action android:name="EXPLAIN_TRAFFIC_RULE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="distractionOptimized" android:value="true" />
+        </activity>
+    </application>
+</manifest>

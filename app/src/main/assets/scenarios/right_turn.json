@@ -1,0 +1,27 @@
+[
+ {
+  "t": 0,
+  "type": "gear",
+  "park": false
+ },
+ {
+  "t": 1000,
+  "type": "turn",
+  "direction": "RIGHT"
+ },
+ {
+  "t": 6000,
+  "type": "turn",
+  "direction": "OFF"
+ },
+ {
+  "t": 9000,
+  "type": "turn",
+  "direction": "RIGHT"
+ },
+ {
+  "t": 12000,
+  "type": "turn",
+  "direction": "OFF"
+ }
+]

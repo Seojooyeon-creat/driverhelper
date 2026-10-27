@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Debug only: SDK access for these is not approved yet, and declaring unapproved permissions fails review.
+     Move to src/main once approved. Release builds run on the fallbacks (no navi/location events). -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" /> <!-- NaviHelper events -->
+    <uses-permission android:name="pleos.car.permission.FUSED_LOCATION" /> <!-- FusedLocation, proximity alerts -->
+    <uses-permission android:name="pleos.car.permission.TTS_SERVICE" /> <!-- PleosTtsVoiceGuide -->
+</manifest>

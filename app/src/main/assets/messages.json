@@ -1,0 +1,272 @@
+{
+  "right_turn_stop": {
+    "ko": "우회전할 때 횡단보도에 보행자가 있거나 건너려 하면 반드시 멈추세요. 전방 신호가 빨간불이면 정지선에서 일단 멈춘 뒤 우회전하세요.",
+    "en": "When turning right, you must stop if anyone is on or about to enter the crosswalk. If the light ahead is red, come to a full stop at the line before turning.",
+    "ja": "右折するときは、横断歩道に歩行者がいる、または渡ろうとしている場合、必ず停止してください。前方の信号が赤なら、停止線で一度止まってから右折してください。"
+  },
+  "right_turn_reminder": {
+    "ko": "우회전, 횡단보도 앞 일시정지.",
+    "en": "Turning right: stop for pedestrians at the crosswalk.",
+    "ja": "右折時は横断歩道の前で一時停止。"
+  },
+  "language_prompt": {
+    "ko": "언어를 선택하세요.",
+    "en": "Please select your language.",
+    "ja": "言語を選択してください。"
+  },
+  "boarding_briefing": {
+    "ko": "환영합니다. 출발 전에 이 차의 기본 조작을 안내합니다. 기어: 브레이크를 밟은 채로 D는 전진, R은 후진이며, 정차 후에는 P에 두세요. 주차 브레이크: 스위치를 당기면 체결되고, 브레이크를 밟은 채로 누르면 해제됩니다. 와이퍼: 오른쪽 레버를 아래로 내리면 작동하고, 더 내릴수록 빨라집니다. 레버를 당기면 워셔액이 나옵니다. 안전 운전하세요.",
+    "en": "Welcome. Here is how to operate this car before you set off. Gear: with your foot on the brake, select D to drive forward and R to reverse. Shift to P when you stop. Parking brake: pull the switch to apply it, and press it with your foot on the brake to release. Wipers: push the right-hand lever down to start them; push further for faster. Pull the lever toward you for washer fluid. Drive safely.",
+    "ja": "ようこそ。出発前に、この車の基本操作をご案内します。ギア：ブレーキを踏んだまま、Dで前進、Rで後退です。停車したらPに入れてください。パーキングブレーキ：スイッチを引くとかかり、ブレーキを踏んだまま押すと解除されます。ワイパー：右側のレバーを下げると作動し、さらに下げると速くなります。レバーを手前に引くとウォッシャー液が出ます。安全運転でどうぞ。"
+  },
+  "ui_replay_briefing": {
+    "ko": "조작 안내 다시 듣기",
+    "en": "Replay car briefing",
+    "ja": "操作案内をもう一度聞く"
+  },
+  "school_zone": {
+    "ko": "곧 어린이보호구역입니다. 제한속도는 시속 30킬로미터이며, 무인 카메라로 자동 단속합니다. 어린이를 주의하세요.",
+    "en": "School zone ahead. The speed limit is 30 kilometers per hour, enforced by automatic cameras. Watch out for children.",
+    "ja": "まもなく子ども保護区域です。制限速度は時速30キロで、無人カメラによる自動取り締まりが行われています。子どもに注意してください。"
+  },
+  "camera_fixed": {
+    "ko": "전방에 과속 단속 카메라가 있습니다. 표지판의 제한속도를 지키세요.",
+    "en": "Speed camera ahead. Keep to the posted speed limit.",
+    "ja": "前方に速度取り締まりカメラがあります。標識の制限速度を守ってください。"
+  },
+  "camera_fixed_30": {
+    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 30킬로미터입니다.",
+    "en": "Speed camera ahead. The speed limit is 30 kilometers per hour.",
+    "ja": "前方に速度取り締まりカメラがあります。制限速度は時速30キロです。"
+  },
+  "camera_fixed_40": {
+    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 40킬로미터입니다.",
+    "en": "Speed camera ahead. The speed limit is 40 kilometers per hour.",
+    "ja": "前方に速度取り締まりカメラがあります。制限速度は時速40キロです。"
+  },
+  "camera_fixed_50": {
+    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 50킬로미터입니다.",
+    "en": "Speed camera ahead. The speed limit is 50 kilometers per hour.",
+    "ja": "前方に速度取り締まりカメラがあります。制限速度は時速50キロです。"
+  },
+  "camera_fixed_60": {
+    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 60킬로미터입니다.",
+    "en": "Speed camera ahead. The speed limit is 60 kilometers per hour.",
+    "ja": "前方に速度取り締まりカメラがあります。制限速度は時速60キロです。"
+  },
+  "camera_fixed_70": {
+    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 70킬로미터입니다.",
+    "en": "Speed camera ahead. The speed limit is 70 kilometers per hour.",
+    "ja": "前方に速度取り締まりカメラがあります。制限速度は時速70キロです。"
+  },
+  "camera_fixed_80": {
+    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 80킬로미터입니다.",
+    "en": "Speed camera ahead. The speed limit is 80 kilometers per hour.",
+    "ja": "前方に速度取り締まりカメラがあります。制限速度は時速80キロです。"
+  },
+  "camera_fixed_90": {
+    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 90킬로미터입니다.",
+    "en": "Speed camera ahead. The speed limit is 90 kilometers per hour.",
+    "ja": "前方に速度取り締まりカメラがあります。制限速度は時速90キロです。"
+  },
+  "camera_fixed_100": {
+    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 100킬로미터입니다.",
+    "en": "Speed camera ahead. The speed limit is 100 kilometers per hour.",
+    "ja": "前方に速度取り締まりカメラがあります。制限速度は時速100キロです。"
+  },
+  "camera_fixed_110": {
+    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 110킬로미터입니다.",
+    "en": "Speed camera ahead. The speed limit is 110 kilometers per hour.",
+    "ja": "前方に速度取り締まりカメラがあります。制限速度は時速110キロです。"
+  },
+  "section_start": {
+    "ko": "구간단속이 시작됩니다. 구간 끝까지 평균속도가 제한속도를 넘지 않게 하세요.",
+    "en": "Average speed check begins. Keep your average speed under the limit until the section ends.",
+    "ja": "区間速度取り締まりが始まります。区間の終わりまで平均速度が制限速度を超えないようにしてください。"
+  },
+  "section_start_30": {
+    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 30킬로미터를 넘으면 단속됩니다.",
+    "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 30 kilometers per hour.",
+    "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速30キロを超えると取り締まりの対象になります。"
+  },
+  "section_start_40": {
+    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 40킬로미터를 넘으면 단속됩니다.",
+    "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 40 kilometers per hour.",
+    "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速40キロを超えると取り締まりの対象になります。"
+  },
+  "section_start_50": {
+    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 50킬로미터를 넘으면 단속됩니다.",
+    "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 50 kilometers per hour.",
+    "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速50キロを超えると取り締まりの対象になります。"
+  },
+  "section_start_60": {
+    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 60킬로미터를 넘으면 단속됩니다.",
+    "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 60 kilometers per hour.",
+    "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速60キロを超えると取り締まりの対象になります。"
+  },
+  "section_start_70": {
+    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 70킬로미터를 넘으면 단속됩니다.",
+    "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 70 kilometers per hour.",
+    "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速70キロを超えると取り締まりの対象になります。"
+  },
+  "section_start_80": {
+    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 80킬로미터를 넘으면 단속됩니다.",
+    "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 80 kilometers per hour.",
+    "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速80キロを超えると取り締まりの対象になります。"
+  },
+  "section_start_90": {
+    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 90킬로미터를 넘으면 단속됩니다.",
+    "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 90 kilometers per hour.",
+    "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速90キロを超えると取り締まりの対象になります。"
+  },
+  "section_start_100": {
+    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 100킬로미터를 넘으면 단속됩니다.",
+    "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 100 kilometers per hour.",
+    "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速100キロを超えると取り締まりの対象になります。"
+  },
+  "section_start_110": {
+    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 110킬로미터를 넘으면 단속됩니다.",
+    "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 110 kilometers per hour.",
+    "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速110キロを超えると取り締まりの対象になります。"
+  },
+  "section_speed_alert": {
+    "ko": "구간 평균속도가 제한속도를 넘었습니다. 속도를 줄이세요.",
+    "en": "Your average speed in this section is over the limit. Slow down.",
+    "ja": "区間の平均速度が制限速度を超えています。減速してください。"
+  },
+  "section_end": {
+    "ko": "구간단속이 끝났습니다.",
+    "en": "Average speed check ends.",
+    "ja": "区間速度取り締まりが終了しました。"
+  },
+  "trip_summary": {
+    "ko": "수고하셨습니다. 이번 주행에서 받은 안내를 화면에 정리했습니다.",
+    "en": "Thank you for driving safely. A summary of the guidance you received is on the screen.",
+    "ja": "お疲れさまでした。今回の走行で受けた案内を画面にまとめました。"
+  },
+  "ui_summary_title": {
+    "ko": "주행 안내 요약",
+    "en": "Trip guidance summary",
+    "ja": "走行案内のまとめ"
+  },
+  "ui_summary_empty": {
+    "ko": "받은 안내가 없습니다.",
+    "en": "No guidance on this trip.",
+    "ja": "案内はありませんでした。"
+  },
+  "cat_school_zone": {
+    "ko": "어린이보호구역",
+    "en": "School zones",
+    "ja": "子ども保護区域"
+  },
+  "cat_camera": {
+    "ko": "단속 카메라",
+    "en": "Speed cameras",
+    "ja": "速度取り締まりカメラ"
+  },
+  "cat_section": {
+    "ko": "구간단속",
+    "en": "Average speed checks",
+    "ja": "区間速度取り締まり"
+  },
+  "cat_right_turn": {
+    "ko": "우회전 일시정지",
+    "en": "Right-turn stops",
+    "ja": "右折時の一時停止"
+  },
+  "faq_speed_limits": {
+    "ko": "도심 일반 도로는 시속 50킬로미터, 주택가 이면도로는 30킬로미터가 기본이고, 고속도로는 보통 100에서 110킬로미터입니다. 표지판이 있으면 표지판이 우선입니다.",
+    "en": "In cities the default limit is 50 km/h on main roads and 30 km/h on residential side streets; expressways are usually 100 to 110 km/h. A posted sign always takes priority.",
+    "ja": "市街地の一般道は時速50キロ、住宅地の路地は30キロが基本で、高速道路はおおむね100から110キロです。標識がある場合は標識が優先です。"
+  },
+  "faq_speed_cameras": {
+    "ko": "한국은 고정식, 이동식, 구간단속 카메라가 많고 모두 자동으로 과태료가 부과됩니다. 구간단속은 시작과 끝 사이의 평균속도로 단속하니 구간 전체에서 속도를 지키세요.",
+    "en": "Korea has many fixed, mobile and average-speed cameras, and fines are issued automatically. Average-speed sections measure your speed between the start and end points, so keep to the limit for the whole section.",
+    "ja": "韓国には固定式・移動式・区間速度カメラが多く、すべて自動で反則金が課されます。区間取り締まりは始点と終点の平均速度で判定するため、区間全体で速度を守ってください。"
+  },
+  "faq_seat_belt": {
+    "ko": "모든 좌석에서 안전벨트를 매야 합니다. 6세 미만 어린이는 카시트에 앉혀야 하며, 위반 시 과태료가 부과됩니다.",
+    "en": "Seat belts are mandatory in every seat. Children under six must ride in a child seat, and violations are fined.",
+    "ja": "全席でシートベルトの着用が義務です。6歳未満の子どもはチャイルドシートに乗せる必要があり、違反には反則金が課されます。"
+  },
+  "faq_drunk_driving": {
+    "ko": "혈중알코올농도 0.03퍼센트부터 음주운전으로 처벌됩니다. 한 잔만 마셔도 운전하지 마세요.",
+    "en": "Driving with a blood alcohol level of 0.03 percent or more is a criminal offence. Do not drive after even one drink.",
+    "ja": "血中アルコール濃度0.03パーセント以上で飲酒運転として処罰されます。一杯でも飲んだら運転しないでください。"
+  },
+  "faq_phone_use": {
+    "ko": "주행 중 휴대전화를 손에 들고 사용하면 안 됩니다. 거치대에 두고 핸즈프리나 음성으로만 사용하세요.",
+    "en": "You may not hold a phone while driving. Keep it in a mount and use hands-free or voice control only.",
+    "ja": "走行中に携帯電話を手に持って使うことは禁止です。ホルダーに置き、ハンズフリーか音声操作のみ使ってください。"
+  },
+  "faq_pedestrian": {
+    "ko": "횡단보도에 보행자가 있거나 건너려고 하면 신호가 없어도 반드시 일시정지해야 합니다. 보행자가 완전히 건넌 뒤 출발하세요.",
+    "en": "If a pedestrian is on or about to enter a crosswalk, you must stop, even where there is no signal. Move on only after they have fully crossed.",
+    "ja": "横断歩道に歩行者がいる、または渡ろうとしている場合は、信号がなくても必ず一時停止してください。完全に渡り終えてから発進してください。"
+  },
+  "faq_left_turn": {
+    "ko": "좌회전은 좌회전 화살표 신호가 켜졌을 때만 할 수 있습니다. '비보호' 표지가 있는 교차로에서만 녹색 신호에 맞은편 차가 없을 때 좌회전할 수 있습니다.",
+    "en": "Turn left only on a green left-turn arrow. At intersections marked 'unprotected left turn' you may turn on a plain green light when no oncoming traffic is coming.",
+    "ja": "左折は左折矢印の信号が出ているときだけできます。「非保護左折」の標識がある交差点だけ、青信号で対向車がいないときに左折できます。"
+  },
+  "faq_yellow_light": {
+    "ko": "황색 신호는 정지 신호입니다. 정지선을 지나지 않았다면 멈춰야 하고, 황색에 교차로에 진입하면 신호위반으로 단속될 수 있습니다.",
+    "en": "A yellow light means stop. If you have not crossed the stop line you must stop; entering the intersection on yellow can be ticketed as a signal violation.",
+    "ja": "黄色信号は停止の合図です。停止線を越えていなければ止まる必要があり、黄色で交差点に進入すると信号無視として取り締まられることがあります。"
+  },
+  "faq_bus_lane": {
+    "ko": "파란 실선으로 표시된 차로는 버스 전용차로이며 승용차는 들어갈 수 없고 카메라로 단속됩니다. 운영 시간은 표지판을 확인하세요.",
+    "en": "Lanes marked with solid blue lines are bus-only lanes; cars may not use them and cameras enforce this. Check the sign for the hours in force.",
+    "ja": "青い実線で示された車線はバス専用車線で、乗用車は進入できずカメラで取り締まられます。運用時間は標識を確認してください。"
+  },
+  "faq_u_turn": {
+    "ko": "유턴은 유턴 표지가 있는 곳에서만 할 수 있습니다. 표지 아래 '보행신호 시'처럼 조건이 적혀 있으면 그 조건에서만 유턴하세요.",
+    "en": "U-turns are allowed only where a U-turn sign is posted. If a condition is written under the sign, such as 'on pedestrian green', U-turn only under that condition.",
+    "ja": "Uターンは、Uターン標識がある場所だけでできます。標識の下に「歩行者信号時」などの条件が書かれていれば、その条件のときだけUターンしてください。"
+  },
+  "faq_parking": {
+    "ko": "도로 가장자리 황색 복선은 주차와 정차 모두 금지, 황색 실선은 시간대별 제한, 황색 점선은 5분 이내 정차만 가능합니다. 소화전 5미터 이내는 항상 금지입니다.",
+    "en": "At the curb, a double yellow line bans both parking and stopping, a solid yellow line has time-based limits, and a dashed yellow line allows stopping for up to five minutes. Never stop within five meters of a fire hydrant.",
+    "ja": "路肩の黄色の二重線は駐車・停車とも禁止、黄色の実線は時間帯による制限、黄色の点線は5分以内の停車のみ可能です。消火栓から5メートル以内は常に禁止です。"
+  },
+  "faq_hipass": {
+    "ko": "톨게이트의 파란색 '하이패스' 차로는 단말기가 있는 차만 통과할 수 있습니다. 이 차에 단말기가 없으면 일반 차로에서 카드나 현금으로 결제하세요.",
+    "en": "Blue 'Hi-pass' toll lanes are for cars with a transponder only. If this car has none, use a regular lane and pay by card or cash.",
+    "ja": "料金所の青い「ハイパス」レーンは車載器のある車だけ通れます。この車に車載器がなければ、一般レーンでカードか現金で支払ってください。"
+  },
+  "faq_accident": {
+    "ko": "사고가 나면 안전한 곳에 차를 세우고 부상자를 살핀 뒤 112에 신고하고, 부상자가 있으면 119를 부르세요. 렌터카 회사에도 바로 연락하고, 현장을 떠나면 뺑소니로 처벌됩니다.",
+    "en": "After an accident, stop safely, check for injuries, call 112 for police and 119 if anyone is hurt. Contact the rental company right away; leaving the scene is treated as hit-and-run.",
+    "ja": "事故が起きたら安全な場所に停車し、負傷者を確認して112に通報し、負傷者がいれば119を呼んでください。レンタカー会社にもすぐ連絡し、現場を離れるとひき逃げとして処罰されます。"
+  },
+  "faq_fuel": {
+    "ko": "주유 전에 이 차의 유종을 확인하세요. 휘발유는 노란색, 경유는 녹색 주유기입니다. 잘못 넣었다면 시동을 걸지 말고 렌터카 회사에 연락하세요.",
+    "en": "Check this car's fuel type before refueling: gasoline pumps are yellow and diesel pumps are green in Korea. If you fill the wrong fuel, do not start the engine; call the rental company.",
+    "ja": "給油前にこの車の燃料の種類を確認してください。韓国ではガソリンは黄色、ディーゼルは緑色の給油機です。間違えて入れたらエンジンをかけず、レンタカー会社に連絡してください。"
+  },
+  "faq_highway": {
+    "ko": "고속도로 최저속도는 시속 50킬로미터이고, 1차로는 앞지르기 전용이라 계속 달리면 단속됩니다. 통행료는 출구에서 내며, 갓길 주행은 금지입니다.",
+    "en": "The minimum expressway speed is 50 km/h, and the leftmost lane is for overtaking only; staying in it is ticketed. Tolls are paid at the exit, and driving on the shoulder is prohibited.",
+    "ja": "高速道路の最低速度は時速50キロで、1車線目は追い越し専用のため走り続けると取り締まられます。通行料は出口で支払い、路肩走行は禁止です。"
+  },
+  "faq_emergency": {
+    "ko": "경찰차나 구급차가 사이렌을 켜고 오면 오른쪽으로 비켜 길을 터 주세요. 긴급 번호는 경찰 112, 소방과 구급 119, 외국어 관광 안내는 1330입니다.",
+    "en": "When a police car or ambulance approaches with its siren on, move to the right and make way. Emergency numbers: 112 for police, 119 for fire and ambulance, and 1330 for tourist help in foreign languages.",
+    "ja": "パトカーや救急車がサイレンを鳴らして近づいたら、右に寄って道を空けてください。緊急番号は警察112、消防・救急119、外国語の観光案内は1330です。"
+  },
+  "faq_school_bus": {
+    "ko": "어린이 통학버스가 점멸등을 켜고 정차해 있으면 양쪽 방향 모두 일시정지한 뒤 서행해야 하고, 앞지르기는 금지입니다.",
+    "en": "When a school bus is stopped with its lights flashing, traffic in both directions must stop, then proceed slowly. Overtaking it is prohibited.",
+    "ja": "通学バスが点滅灯をつけて停車しているときは、両方向とも一時停止してから徐行し、追い越しは禁止です。"
+  },
+  "faq_intersection": {
+    "ko": "신호 없는 교차로에서는 먼저 들어온 차가 우선이고, 동시에 들어오면 넓은 도로의 차, 그다음 오른쪽 차가 우선입니다. 서행하며 확인하세요.",
+    "en": "At an intersection without signals, the vehicle that entered first has priority; if you arrive together, the vehicle on the wider road goes first, then the one on your right. Slow down and check.",
+    "ja": "信号のない交差点では先に進入した車が優先で、同時なら広い道路の車、次に右側の車が優先です。徐行して確認してください。"
+  },
+  "faq_license": {
+    "ko": "운전할 때는 국제운전면허증, 본국 운전면허증, 여권을 함께 가지고 있어야 합니다. 경찰 요구 시 제시하세요.",
+    "en": "Carry your International Driving Permit, your home-country licence and your passport together while driving, and show them if the police ask.",
+    "ja": "運転中は国際運転免許証、本国の運転免許証、パスポートを一緒に携帯してください。警察に求められたら提示してください。"
+  }
+}

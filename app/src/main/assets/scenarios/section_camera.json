@@ -1,0 +1,48 @@
+[
+ {
+  "t": 0,
+  "type": "gear",
+  "park": false
+ },
+ {
+  "t": 1000,
+  "type": "camera",
+  "id": "cam-1",
+  "kind": "FIXED",
+  "limit": 80
+ },
+ {
+  "t": 3000,
+  "type": "camera",
+  "id": "cam-1",
+  "kind": "FIXED",
+  "limit": 80
+ },
+ {
+  "t": 9000,
+  "type": "camera",
+  "id": "sec-1",
+  "kind": "SECTION_START",
+  "limit": 100
+ },
+ {
+  "t": 15000,
+  "type": "camera",
+  "id": "sec-1",
+  "kind": "SECTION_ALERT",
+  "limit": 100
+ },
+ {
+  "t": 18000,
+  "type": "camera",
+  "id": "sec-1",
+  "kind": "SECTION_ALERT",
+  "limit": 100
+ },
+ {
+  "t": 24000,
+  "type": "camera",
+  "id": "sec-1",
+  "kind": "SECTION_END"
+ }
+]

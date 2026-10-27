@@ -1,0 +1,25 @@
+[
+ {
+  "t": 0,
+  "type": "gear",
+  "park": false
+ },
+ {
+  "t": 1000,
+  "type": "location",
+  "lat": 37.5612,
+  "lon": 126.978
+ },
+ {
+  "t": 2000,
+  "type": "camera",
+  "id": "ret-cam",
+  "kind": "FIXED",
+  "limit": 50
+ },
+ {
+  "t": 6000,
+  "type": "brake",
+  "on": true
+ }
+]

@@ -1,0 +1,50 @@
+{
+  "packageName": "ai.driverhelper",
+  "appDescription": "Explains Korean traffic rules and this rental car's controls to foreign drivers in their own language.",
+  "version": "0.1.0",
+  "actionCalls": [
+    {
+      "type": "function",
+      "function": {
+        "name": "EXPLAIN_TRAFFIC_RULE",
+        "description": "Explains a Korean traffic rule or rental-car driving topic aloud in the driver's chosen language.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "topic": {
+              "type": "string",
+              "description": "The traffic rule or driving topic the driver asked about.",
+              "enum": [
+                "right_turn",
+                "school_zone",
+                "speed_limits",
+                "speed_cameras",
+                "seat_belt_child_seat",
+                "drunk_driving",
+                "phone_use",
+                "pedestrian_crosswalk",
+                "left_turn",
+                "yellow_light",
+                "bus_lane",
+                "u_turn",
+                "parking_curb_lines",
+                "toll_hipass",
+                "accident",
+                "refueling",
+                "highway",
+                "emergency_vehicles",
+                "school_bus",
+                "intersection_priority",
+                "driving_license"
+              ]
+            }
+          },
+          "required": [
+            "topic"
+          ]
+        },
+        "component": "activity"
+      }
+    }
+  ]
+}

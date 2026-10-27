@@ -27,6 +27,14 @@ class RuleEngineTest {
     }
 
     @Test
+    fun cooldownCanBeChangedWhileRunning() {
+        assertEquals(MessageId.RIGHT_TURN_STOP, turnRight(0))
+        engine.reminderCooldownMs = 5_000
+        assertNull("new, longer cooldown applies", turnRight(1_000))
+        assertEquals(MessageId.RIGHT_TURN_REMINDER, turnRight(5_000))
+    }
+
+    @Test
     fun leftTurnIsSilent() {
         assertNull(engine.onSignal(TurnSignal(LEFT), 0))
         assertEquals(MessageId.RIGHT_TURN_STOP, engine.onSignal(TurnSignal(RIGHT), 10))

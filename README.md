@@ -4,7 +4,7 @@
 
 > **주의** 교통법 FAQ와 안내 문구는 법령 검수 전 초안이며 법적 효력이 없다. 스쿨존 좌표는 가짜 샘플 3곳이다. 실차 적용 전 반드시 검수할 것.
 >
-> 라이선스: 코드는 [MIT](LICENSE). 번들 폰트 Asta Sans는 42dot의 [SIL OFL 1.1](app/src/main/res/font/OFL.txt). Pleos SDK는 저장소에 포함하지 않으며 Maven 좌표로만 참조한다 (Pleos Playground 약관 제15조).
+> 라이선스: 코드는 [MIT](LICENSE). 번들 폰트 Asta Sans는 42dot의 [SIL OFL 1.1](OFL-AstaSans.txt). Pleos SDK는 저장소에 포함하지 않으며 Maven 좌표로만 참조한다 (Pleos Playground 약관 제15조).
 
 ## 빌드
 JDK 17 필요 (기본 JDK가 24여도 됨, toolchain이 17로 고정).
@@ -35,6 +35,9 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 - `ui/Theme.kt`: Pleos UI 가이드 적용 — Asta Sans(번들, 가변 폰트), Headline 44/Title 32/Body 26/Label 22sp, 행간 1.5×, 낮/밤 테마(시스템 다크모드 추종), 터치 타겟 96dp, 아이콘은 항상 라벨과 함께, 화면 텍스트 ≤3줄. **색·타입 스케일은 Figma 토큰이 없어 추정값** — 이 파일 한 곳만 바꾸면 됨.
 - `gleo/`: Gleo Interface 연동(SDK 없음). `assets/schema.json`에 함수 `EXPLAIN_TRAFFIC_RULE(topic enum)` 1개. Gleo가 `MainActivity`를 action=함수명, extra `ACTION_PARAM`(JSON)으로 띄우면 `Faq`에서 메시지 ID를 찾아 재생하고, `APP_ACTION_RESPONSE` 브로드캐스트로 `mode: silent` 응답(모국어는 우리가 읽음). 모르는 topic은 `fail`. **스키마는 Pleos 팀 리뷰 후 활성화됨.**
 - 교통법 FAQ 21개(`faq_*`, ko/en/ja): 속도·카메라·안전벨트·음주·휴대전화·횡단보도·좌회전·황색신호·버스전용·유턴·주정차·하이패스·사고·주유·고속도로·긴급차·통학버스·교차로·면허. 법령 검수 전 초안.
+- 요약 항목 탭: 반납 요약의 카테고리(`cat_*`)를 탭하면 규칙과 과태료 설명(`fine_*`, 승용차 기준 초안)을 재생하고 펼쳐 보여줌. `MessageId.detail`.
+- 긴급 화면: 정차 화면 `긴급 상황` 버튼 → 상대방에게 보여주는 한국어 카드(아래에 운전자 언어 번역) + `assets/contacts.json` 연락처(112·119·1330 공개번호, 렌터카·보험사는 **비어 있음 → 운영사별로 채울 것**) 원터치 다이얼(`ACTION_DIAL`, 다이얼러 없으면 번호만 표시) + `faq_accident` 재생.
+- 안내 설정(`Settings.kt`, SharedPreferences): 카테고리 4종 on/off(꺼진 카테고리는 큐에 넣지 않고 기록도 안 함), 우회전 리마인더 간격 5/10/30분(`RuleEngine.reminderCooldownMs`에 즉시 반영).
 - 문구: `assets/messages.json`. **음성 파일은 앞에 150~200ms 무음을 넣어 제작할 것.**
 
 ## Phase 1 테스트: 우회전 안내

@@ -43,13 +43,16 @@ object MessageId {
         id.startsWith("right_turn") -> "cat_right_turn"
         else -> null
     }
+
+    /** Rule and fine explanation shown when the driver taps a summary category. */
+    fun detail(category: String) = "fine_" + category.removePrefix("cat_")
 }
 
 data class SchoolZone(val name: String, val lat: Double, val lon: Double)
 
 /** Decides which guidance to play. Pure Kotlin: time is passed in so it is testable. */
 class RuleEngine(
-    private val reminderCooldownMs: Long = 10 * 60_000,
+    var reminderCooldownMs: Long = 10 * 60_000,
     private val schoolZones: List<SchoolZone> = emptyList(),
     private val sectionAlertCooldownMs: Long = 60_000,
     /** Geofence, distance check and navi can all report the same zone within moments; speak it once. */

@@ -2,6 +2,7 @@ package ai.driverhelper
 
 import ai.driverhelper.data.GuidanceDao
 import ai.driverhelper.data.GuidanceRecord
+import ai.driverhelper.data.parseContacts
 import ai.driverhelper.data.parseSchoolZones
 import ai.driverhelper.rule.MessageId
 import ai.driverhelper.rule.RuleEngine
@@ -49,7 +50,12 @@ class GuidancePipeline @Inject constructor(
     private val focus: AudioFocus,
     private val messages: Messages,
     private val records: GuidanceDao,
+    private val settingsStore: SettingsStore,
 ) {
+    val settings: StateFlow<GuidanceSettings> = settingsStore.settings
+    fun updateSettings(change: (GuidanceSettings) -> GuidanceSettings) = settingsStore.update(change)
+    val contacts by lazy { parseContacts(context.assets.open("contacts.json").bufferedReader().use { it.readText() }) }
+
     // ponytail: the summary covers everything since app start; use the rental start once the rental system provides it.
     private val sessionStartMs = System.currentTimeMillis()
     private var lastLocation: DrivingSignal.Location? = null
@@ -92,6 +98,7 @@ class GuidancePipeline @Inject constructor(
                 play(id)
             }
         }
+        scope.launch { settings.collect { engine.reminderCooldownMs = it.reminderMinutes * 60_000L } }
         scope.launch {
             val vehicle = Vehicle(context).apply { initialize() }
             try {
@@ -139,7 +146,11 @@ class GuidancePipeline @Inject constructor(
     fun text(messageId: String, language: Language) = messages.text(messageId, language)
 
     // ponytail: queued items never expire; drop stale ones (e.g. a right-turn reminder behind a 30 s briefing) if that bites.
-    private fun enqueue(id: String) = queue.update { q -> (q + id).distinct().sortedBy(MessageId::priority) }
+    private fun enqueue(id: String) {
+        val category = MessageId.category(id)
+        if (category != null && category !in settings.value.enabled) return
+        queue.update { q -> (q + id).distinct().sortedBy(MessageId::priority) }
+    }
 
     private suspend fun play(id: String) {
         if (MessageId.category(id) != null) {

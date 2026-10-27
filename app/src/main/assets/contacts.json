@@ -1,0 +1,7 @@
+[
+  { "id": "police", "number": "112" },
+  { "id": "fire", "number": "119" },
+  { "id": "travel_hotline", "number": "1330" },
+  { "id": "rental", "number": "" },
+  { "id": "insurer", "number": "" }
+]

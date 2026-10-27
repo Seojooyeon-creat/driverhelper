@@ -268,5 +268,95 @@
     "ko": "운전할 때는 국제운전면허증, 본국 운전면허증, 여권을 함께 가지고 있어야 합니다. 경찰 요구 시 제시하세요.",
     "en": "Carry your International Driving Permit, your home-country licence and your passport together while driving, and show them if the police ask.",
     "ja": "運転中は国際運転免許証、本国の運転免許証、パスポートを一緒に携帯してください。警察に求められたら提示してください。"
+  },
+  "fine_school_zone": {
+    "ko": "어린이보호구역 제한속도는 시속 30킬로미터입니다. 카메라 과태료는 승용차 기준 20킬로미터 이하 초과 7만 원, 40킬로미터 이하 10만 원, 60킬로미터 이하 13만 원, 그 이상 16만 원입니다. 고지서는 렌터카 회사로 가며, 회사가 수수료를 더해 청구합니다.",
+    "en": "School zones are limited to 30 km/h. Camera fines for a passenger car are 70,000 won for up to 20 km/h over, 100,000 up to 40, 130,000 up to 60, and 160,000 beyond that. The notice goes to the rental company, which bills you with a handling fee.",
+    "ja": "スクールゾーンの制限速度は時速30キロです。カメラの過料は乗用車で20キロ以下の超過が7万ウォン、40キロ以下10万ウォン、60キロ以下13万ウォン、それ以上16万ウォンです。通知はレンタカー会社に届き、手数料を加えて請求されます。"
+  },
+  "fine_camera": {
+    "ko": "일반 도로 과속 카메라 과태료는 승용차 기준 20킬로미터 이하 초과 4만 원, 40킬로미터 이하 7만 원, 60킬로미터 이하 10만 원, 그 이상 13만 원입니다. 고지서는 보통 2주에서 한 달 뒤 렌터카 회사에 도착하며, 회사가 수수료를 더해 청구합니다.",
+    "en": "Speed camera fines on ordinary roads for a passenger car are 40,000 won for up to 20 km/h over, 70,000 up to 40, 100,000 up to 60, and 130,000 beyond that. The notice reaches the rental company in two to four weeks, and the company bills you with a handling fee.",
+    "ja": "一般道路の速度カメラの過料は乗用車で20キロ以下の超過が4万ウォン、40キロ以下7万ウォン、60キロ以下10万ウォン、それ以上13万ウォンです。通知は通常2週間から1か月後にレンタカー会社に届き、手数料を加えて請求されます。"
+  },
+  "fine_section": {
+    "ko": "구간단속은 시작과 끝 사이 평균속도와 각 지점 속도를 모두 단속하며, 과태료는 일반 과속 카메라와 같습니다. 구간 중간에서만 속도를 줄여도 평균속도가 높으면 단속됩니다.",
+    "en": "Section control checks both your average speed between the start and end points and your speed at each camera; fines are the same as ordinary speed cameras. Slowing only in the middle does not help if your average is too high.",
+    "ja": "区間取り締まりは開始と終了の間の平均速度と各地点の速度の両方を取り締まり、過料は一般の速度カメラと同じです。途中だけ減速しても平均速度が高ければ取り締まられます。"
+  },
+  "fine_right_turn": {
+    "ko": "우회전 중 횡단보도 보행자를 보호하지 않으면 범칙금 6만 원과 벌점 10점, 빨간불에 정지선에서 멈추지 않으면 신호위반으로 범칙금 6만 원과 벌점 15점입니다. 경찰이 현장에서 단속하면 여권과 국제운전면허증을 제시하세요.",
+    "en": "Failing to protect pedestrians while turning right costs a 60,000 won fine and 10 penalty points; not stopping at the line on red is a signal violation, 60,000 won and 15 points. If police stop you, show your passport and international driving permit.",
+    "ja": "右折時に横断歩道の歩行者を保護しないと反則金6万ウォンと違反点数10点、赤信号で停止線に止まらないと信号違反で反則金6万ウォンと15点です。警察に止められたらパスポートと国際運転免許証を提示してください。"
+  },
+  "ui_emergency": {
+    "ko": "긴급 상황",
+    "en": "Emergency",
+    "ja": "緊急時"
+  },
+  "ui_emergency_hint": {
+    "ko": "이 화면을 상대 운전자나 경찰에게 보여주세요.",
+    "en": "Show this screen to the other driver or the police.",
+    "ja": "この画面を相手の運転者や警察に見せてください。"
+  },
+  "ui_emergency_card": {
+    "ko": "저는 한국어를 하지 못합니다. 이 차는 렌터카이며 보험으로 처리됩니다. 아래 번호로 연락해 주세요.",
+    "en": "I do not speak Korean. This is a rental car and insurance will handle it. Please contact the numbers below.",
+    "ja": "私は韓国語が話せません。この車はレンタカーで、保険で対応します。下の番号に連絡してください。"
+  },
+  "ui_emergency_steps": {
+    "ko": "사고 때 할 일 듣기",
+    "en": "What to do after an accident",
+    "ja": "事故時の対応を聞く"
+  },
+  "ui_back": {
+    "ko": "돌아가기",
+    "en": "Back",
+    "ja": "戻る"
+  },
+  "ui_not_set": {
+    "ko": "미등록",
+    "en": "Not set",
+    "ja": "未登録"
+  },
+  "contact_police": {
+    "ko": "경찰 · 사고 신고",
+    "en": "Police · report accident",
+    "ja": "警察・事故通報"
+  },
+  "contact_fire": {
+    "ko": "구급 · 소방",
+    "en": "Ambulance · fire",
+    "ja": "救急・消防"
+  },
+  "contact_travel_hotline": {
+    "ko": "관광통역 안내 · 24시간",
+    "en": "Korea Travel Hotline · 24h interpreter",
+    "ja": "観光通訳案内・24時間"
+  },
+  "contact_rental": {
+    "ko": "렌터카 회사",
+    "en": "Rental company",
+    "ja": "レンタカー会社"
+  },
+  "contact_insurer": {
+    "ko": "보험사",
+    "en": "Insurer",
+    "ja": "保険会社"
+  },
+  "ui_settings": {
+    "ko": "안내 설정",
+    "en": "Guidance settings",
+    "ja": "案内設定"
+  },
+  "ui_reminder_interval": {
+    "ko": "우회전 리마인더 간격",
+    "en": "Right-turn reminder interval",
+    "ja": "右折リマインダーの間隔"
+  },
+  "ui_minutes": {
+    "ko": "%d분",
+    "en": "%d min",
+    "ja": "%d分"
   }
 }

@@ -5,7 +5,7 @@
 ## 0. 준비
 ```sh
 cd ~/SCW/driverhelper
-JAVA_HOME=/opt/homebrew/opt/openjdk@17 ./gradlew assembleDebug testDebugUnitTest   # 단위 테스트 14개 통과 확인
+JAVA_HOME=/opt/homebrew/opt/openjdk@17 ./gradlew assembleDebug testDebugUnitTest   # 단위 테스트 21개 통과 확인
 adb install -r app/build/outputs/apk/debug/app-debug.apk
 adb forward tcp:8088 tcp:8088              # Virtual Console → http://127.0.0.1:8088
 ```
@@ -122,6 +122,35 @@ adb logcat -d -s GleoAction VoiceGuide | tail -8
 - 고칠 문안은 `app/src/main/assets/messages.json`의 `faq_*` 키를 바꾸고 재설치. 단위 테스트가 3개 언어 누락을 잡아 준다.
 
 실제 Gleo 음성("한국에서 음주운전 기준이 뭐야?")은 `assets/schema.json`이 Pleos 리뷰를 통과한 뒤에만 동작한다.
+
+## 6-5. 요약 항목 탭 → 규칙·과태료
+6번 반납 요약이 떠 있는 상태에서.
+| 단계 | 기대 결과 |
+|---|---|
+| `단속 카메라 · 1` 행 탭 | `VoiceGuide: [xx] fine_camera: ...`, 행 아래에 같은 문구가 펼쳐짐. 위 안내 카드에도 뜸 |
+| 같은 행 다시 탭 | 접힘, 재생 없음 |
+| 다른 카테고리 탭 | 그 카테고리의 `fine_*` 재생, 이전 것은 접힘 |
+| 요약 카운트 | `fine_*` 재생은 요약에 **집계되지 않아야** 함 (category 없음) |
+
+## 6-6. 긴급 화면
+| 단계 | 기대 결과 |
+|---|---|
+| 정차 화면 `긴급 상황`(빨간 테두리) 탭 | 전체 화면 전환. 맨 위 힌트, 큰 한국어 카드. 선택 언어가 ko가 아니면 아래에 번역 |
+| 연락처 | 경찰 112, 구급 119, 관광통역 1330에 통화 버튼. 렌터카·보험사는 `미등록`이고 버튼 없음 |
+| 통화 버튼 탭 | 에뮬레이터에 다이얼러가 있으면 열림. 없으면 `Emergency: no dialer for 112` 로그만, 앱 안 죽음 |
+| `사고 때 할 일 듣기` | `faq_accident` 재생 |
+| `돌아가기` 또는 시스템 뒤로 | 정차 화면으로. 언어·요약 유지 |
+| 기어 D(화면 제한 걸리면) | 주행 화면으로 바뀌고, P 복귀 시 긴급 화면이 아니라 정차 화면 |
+
+## 6-7. 안내 설정
+| 단계 | 기대 결과 |
+|---|---|
+| `안내 설정` 펼침 | 스위치 4개(어린이보호구역·단속 카메라·구간단속·우회전 일시정지) 모두 ON, 간격 10분 선택 |
+| `단속 카메라` OFF → `section_camera.json` 재생 | `camera_fixed_80` **없음**, `section_*`는 그대로. 이후 요약에 단속 카메라 집계 없음 |
+| `우회전 일시정지` OFF → Virtual Console RIGHT | 안내 없음 |
+| 간격 5분 선택 → RIGHT → OFF → 5분 뒤 RIGHT | `right_turn_reminder` (10분 기다릴 필요 없음) |
+| `force-stop` 후 재실행 | 설정이 그대로 남아 있음 (`shared_prefs/settings.xml`) |
+| `pm clear` | 기본값으로 돌아감 |
 
 ## 7. 화면 회전과 창 크기
 - portrait와 landscape를 바꾸고 분할 화면에도 넣어 본다. 선택한 언어, 마지막 안내, 요약, 재생 중인 시나리오가 그대로 유지되어야 한다.

@@ -15,9 +15,9 @@
     "ja": "言語を選択してください。"
   },
   "boarding_briefing": {
-    "ko": "환영합니다. 출발 전에 이 차의 기본 조작을 안내합니다. 기어: 브레이크를 밟은 채로 D는 전진, R은 후진이며, 정차 후에는 P에 두세요. 주차 브레이크: 스위치를 당기면 체결되고, 브레이크를 밟은 채로 누르면 해제됩니다. 와이퍼: 오른쪽 레버를 아래로 내리면 작동하고, 더 내릴수록 빨라집니다. 레버를 당기면 워셔액이 나옵니다. 안전 운전하세요.",
-    "en": "Welcome. Here is how to operate this car before you set off. Gear: with your foot on the brake, select D to drive forward and R to reverse. Shift to P when you stop. Parking brake: pull the switch to apply it, and press it with your foot on the brake to release. Wipers: push the right-hand lever down to start them; push further for faster. Pull the lever toward you for washer fluid. Drive safely.",
-    "ja": "ようこそ。出発前に、この車の基本操作をご案内します。ギア：ブレーキを踏んだまま、Dで前進、Rで後退です。停車したらPに入れてください。パーキングブレーキ：スイッチを引くとかかり、ブレーキを踏んだまま押すと解除されます。ワイパー：右側のレバーを下げると作動し、さらに下げると速くなります。レバーを手前に引くとウォッシャー液が出ます。安全運転でどうぞ。"
+    "ko": "안녕하세요. 이 차는 아이오닉 5 전기차예요. 출발 전에 기본 조작을 안내할게요. 시동: 브레이크를 밟고 핸들 오른쪽의 시동 버튼을 누르면 계기판에 READY가 켜져요. 소리는 나지 않아요. 기어: 핸들 오른쪽 아래 짧은 레버를 앞으로 돌리면 D, 뒤로 돌리면 R, 끝의 버튼을 누르면 P예요. 주차 브레이크는 P에 두면 자동으로 걸려요. 와이퍼: 오른쪽 위 레버를 아래로 내리면 작동해요. 안전 운전하세요.",
+    "en": "Hello. This car is an IONIQ 5, an electric car. Here is how to operate it before you set off. Start: press the brake and the start button to the right of the steering wheel; READY lights up on the cluster and there is no engine sound. Gear: the short lever low on the right of the column. Twist it forward for D, back for R, and press the button on its end for P. The parking brake applies itself in P. Wipers: push the upper right lever down. Drive safely.",
+    "ja": "こんにちは。この車は電気自動車のアイオニック5です。出発前に基本操作をご案内します。始動：ブレーキを踏んでハンドル右側のスタートボタンを押すと、メーターにREADYが点灯します。エンジン音はしません。ギア：ハンドル右下の短いレバーを前に回すとD、後ろに回すとR、先端のボタンを押すとPです。Pに入れるとパーキングブレーキは自動でかかります。ワイパー：右上のレバーを下げると作動します。安全運転でどうぞ。"
   },
   "ui_replay_briefing": {
     "ko": "조작 안내 다시 듣기",
@@ -25,122 +25,122 @@
     "ja": "操作案内をもう一度聞く"
   },
   "school_zone": {
-    "ko": "곧 어린이보호구역입니다. 제한속도는 시속 30킬로미터이며, 무인 카메라로 자동 단속합니다. 어린이를 주의하세요.",
+    "ko": "곧 어린이보호구역이에요. 제한속도는 시속 30킬로미터이며, 무인 카메라로 자동 단속해요. 어린이를 주의하세요.",
     "en": "School zone ahead. The speed limit is 30 kilometers per hour, enforced by automatic cameras. Watch out for children.",
     "ja": "まもなく子ども保護区域です。制限速度は時速30キロで、無人カメラによる自動取り締まりが行われています。子どもに注意してください。"
   },
   "camera_fixed": {
-    "ko": "전방에 과속 단속 카메라가 있습니다. 표지판의 제한속도를 지키세요.",
+    "ko": "전방에 과속 단속 카메라가 있어요. 표지판의 제한속도를 지키세요.",
     "en": "Speed camera ahead. Keep to the posted speed limit.",
     "ja": "前方に速度取り締まりカメラがあります。標識の制限速度を守ってください。"
   },
   "camera_fixed_30": {
-    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 30킬로미터입니다.",
+    "ko": "전방에 과속 단속 카메라가 있어요. 제한속도는 시속 30킬로미터예요.",
     "en": "Speed camera ahead. The speed limit is 30 kilometers per hour.",
     "ja": "前方に速度取り締まりカメラがあります。制限速度は時速30キロです。"
   },
   "camera_fixed_40": {
-    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 40킬로미터입니다.",
+    "ko": "전방에 과속 단속 카메라가 있어요. 제한속도는 시속 40킬로미터예요.",
     "en": "Speed camera ahead. The speed limit is 40 kilometers per hour.",
     "ja": "前方に速度取り締まりカメラがあります。制限速度は時速40キロです。"
   },
   "camera_fixed_50": {
-    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 50킬로미터입니다.",
+    "ko": "전방에 과속 단속 카메라가 있어요. 제한속도는 시속 50킬로미터예요.",
     "en": "Speed camera ahead. The speed limit is 50 kilometers per hour.",
     "ja": "前方に速度取り締まりカメラがあります。制限速度は時速50キロです。"
   },
   "camera_fixed_60": {
-    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 60킬로미터입니다.",
+    "ko": "전방에 과속 단속 카메라가 있어요. 제한속도는 시속 60킬로미터예요.",
     "en": "Speed camera ahead. The speed limit is 60 kilometers per hour.",
     "ja": "前方に速度取り締まりカメラがあります。制限速度は時速60キロです。"
   },
   "camera_fixed_70": {
-    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 70킬로미터입니다.",
+    "ko": "전방에 과속 단속 카메라가 있어요. 제한속도는 시속 70킬로미터예요.",
     "en": "Speed camera ahead. The speed limit is 70 kilometers per hour.",
     "ja": "前方に速度取り締まりカメラがあります。制限速度は時速70キロです。"
   },
   "camera_fixed_80": {
-    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 80킬로미터입니다.",
+    "ko": "전방에 과속 단속 카메라가 있어요. 제한속도는 시속 80킬로미터예요.",
     "en": "Speed camera ahead. The speed limit is 80 kilometers per hour.",
     "ja": "前方に速度取り締まりカメラがあります。制限速度は時速80キロです。"
   },
   "camera_fixed_90": {
-    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 90킬로미터입니다.",
+    "ko": "전방에 과속 단속 카메라가 있어요. 제한속도는 시속 90킬로미터예요.",
     "en": "Speed camera ahead. The speed limit is 90 kilometers per hour.",
     "ja": "前方に速度取り締まりカメラがあります。制限速度は時速90キロです。"
   },
   "camera_fixed_100": {
-    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 100킬로미터입니다.",
+    "ko": "전방에 과속 단속 카메라가 있어요. 제한속도는 시속 100킬로미터예요.",
     "en": "Speed camera ahead. The speed limit is 100 kilometers per hour.",
     "ja": "前方に速度取り締まりカメラがあります。制限速度は時速100キロです。"
   },
   "camera_fixed_110": {
-    "ko": "전방에 과속 단속 카메라가 있습니다. 제한속도는 시속 110킬로미터입니다.",
+    "ko": "전방에 과속 단속 카메라가 있어요. 제한속도는 시속 110킬로미터예요.",
     "en": "Speed camera ahead. The speed limit is 110 kilometers per hour.",
     "ja": "前方に速度取り締まりカメラがあります。制限速度は時速110キロです。"
   },
   "section_start": {
-    "ko": "구간단속이 시작됩니다. 구간 끝까지 평균속도가 제한속도를 넘지 않게 하세요.",
+    "ko": "구간단속이 시작돼요. 구간 끝까지 평균속도가 제한속도를 넘지 않게 하세요.",
     "en": "Average speed check begins. Keep your average speed under the limit until the section ends.",
     "ja": "区間速度取り締まりが始まります。区間の終わりまで平均速度が制限速度を超えないようにしてください。"
   },
   "section_start_30": {
-    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 30킬로미터를 넘으면 단속됩니다.",
+    "ko": "구간단속이 시작돼요. 이 구간의 평균속도가 시속 30킬로미터를 넘으면 단속돼요.",
     "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 30 kilometers per hour.",
     "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速30キロを超えると取り締まりの対象になります。"
   },
   "section_start_40": {
-    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 40킬로미터를 넘으면 단속됩니다.",
+    "ko": "구간단속이 시작돼요. 이 구간의 평균속도가 시속 40킬로미터를 넘으면 단속돼요.",
     "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 40 kilometers per hour.",
     "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速40キロを超えると取り締まりの対象になります。"
   },
   "section_start_50": {
-    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 50킬로미터를 넘으면 단속됩니다.",
+    "ko": "구간단속이 시작돼요. 이 구간의 평균속도가 시속 50킬로미터를 넘으면 단속돼요.",
     "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 50 kilometers per hour.",
     "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速50キロを超えると取り締まりの対象になります。"
   },
   "section_start_60": {
-    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 60킬로미터를 넘으면 단속됩니다.",
+    "ko": "구간단속이 시작돼요. 이 구간의 평균속도가 시속 60킬로미터를 넘으면 단속돼요.",
     "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 60 kilometers per hour.",
     "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速60キロを超えると取り締まりの対象になります。"
   },
   "section_start_70": {
-    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 70킬로미터를 넘으면 단속됩니다.",
+    "ko": "구간단속이 시작돼요. 이 구간의 평균속도가 시속 70킬로미터를 넘으면 단속돼요.",
     "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 70 kilometers per hour.",
     "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速70キロを超えると取り締まりの対象になります。"
   },
   "section_start_80": {
-    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 80킬로미터를 넘으면 단속됩니다.",
+    "ko": "구간단속이 시작돼요. 이 구간의 평균속도가 시속 80킬로미터를 넘으면 단속돼요.",
     "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 80 kilometers per hour.",
     "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速80キロを超えると取り締まりの対象になります。"
   },
   "section_start_90": {
-    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 90킬로미터를 넘으면 단속됩니다.",
+    "ko": "구간단속이 시작돼요. 이 구간의 평균속도가 시속 90킬로미터를 넘으면 단속돼요.",
     "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 90 kilometers per hour.",
     "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速90キロを超えると取り締まりの対象になります。"
   },
   "section_start_100": {
-    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 100킬로미터를 넘으면 단속됩니다.",
+    "ko": "구간단속이 시작돼요. 이 구간의 평균속도가 시속 100킬로미터를 넘으면 단속돼요.",
     "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 100 kilometers per hour.",
     "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速100キロを超えると取り締まりの対象になります。"
   },
   "section_start_110": {
-    "ko": "구간단속이 시작됩니다. 이 구간의 평균속도가 시속 110킬로미터를 넘으면 단속됩니다.",
+    "ko": "구간단속이 시작돼요. 이 구간의 평균속도가 시속 110킬로미터를 넘으면 단속돼요.",
     "en": "Average speed check begins. You will be fined if your average speed through this section exceeds 110 kilometers per hour.",
     "ja": "区間速度取り締まりが始まります。この区間の平均速度が時速110キロを超えると取り締まりの対象になります。"
   },
   "section_speed_alert": {
-    "ko": "구간 평균속도가 제한속도를 넘었습니다. 속도를 줄이세요.",
+    "ko": "구간 평균속도가 제한속도를 넘었어요. 속도를 줄이세요.",
     "en": "Your average speed in this section is over the limit. Slow down.",
     "ja": "区間の平均速度が制限速度を超えています。減速してください。"
   },
   "section_end": {
-    "ko": "구간단속이 끝났습니다.",
+    "ko": "구간단속이 끝났어요.",
     "en": "Average speed check ends.",
     "ja": "区間速度取り締まりが終了しました。"
   },
   "trip_summary": {
-    "ko": "수고하셨습니다. 이번 주행에서 받은 안내를 화면에 정리했습니다.",
+    "ko": "수고 많으셨어요. 이번 주행에서 받은 안내를 화면에 정리했어요.",
     "en": "Thank you for driving safely. A summary of the guidance you received is on the screen.",
     "ja": "お疲れさまでした。今回の走行で受けた案内を画面にまとめました。"
   },
@@ -150,7 +150,7 @@
     "ja": "走行案内のまとめ"
   },
   "ui_summary_empty": {
-    "ko": "받은 안내가 없습니다.",
+    "ko": "아직 받은 안내가 없어요",
     "en": "No guidance on this trip.",
     "ja": "案内はありませんでした。"
   },
@@ -175,117 +175,112 @@
     "ja": "右折時の一時停止"
   },
   "faq_speed_limits": {
-    "ko": "도심 일반 도로는 시속 50킬로미터, 주택가 이면도로는 30킬로미터가 기본이고, 고속도로는 보통 100에서 110킬로미터입니다. 표지판이 있으면 표지판이 우선입니다.",
+    "ko": "도심 일반 도로는 시속 50킬로미터, 주택가 이면도로는 30킬로미터가 기본이고, 고속도로는 보통 100에서 110킬로미터예요. 표지판이 있으면 표지판이 우선이에요.",
     "en": "In cities the default limit is 50 km/h on main roads and 30 km/h on residential side streets; expressways are usually 100 to 110 km/h. A posted sign always takes priority.",
     "ja": "市街地の一般道は時速50キロ、住宅地の路地は30キロが基本で、高速道路はおおむね100から110キロです。標識がある場合は標識が優先です。"
   },
   "faq_speed_cameras": {
-    "ko": "한국은 고정식, 이동식, 구간단속 카메라가 많고 모두 자동으로 과태료가 부과됩니다. 구간단속은 시작과 끝 사이의 평균속도로 단속하니 구간 전체에서 속도를 지키세요.",
+    "ko": "한국은 고정식, 이동식, 구간단속 카메라가 많고 모두 자동으로 과태료가 부과돼요. 구간단속은 시작과 끝 사이의 평균속도로 단속하니 구간 전체에서 속도를 지키세요.",
     "en": "Korea has many fixed, mobile and average-speed cameras, and fines are issued automatically. Average-speed sections measure your speed between the start and end points, so keep to the limit for the whole section.",
     "ja": "韓国には固定式・移動式・区間速度カメラが多く、すべて自動で反則金が課されます。区間取り締まりは始点と終点の平均速度で判定するため、区間全体で速度を守ってください。"
   },
   "faq_seat_belt": {
-    "ko": "모든 좌석에서 안전벨트를 매야 합니다. 6세 미만 어린이는 카시트에 앉혀야 하며, 위반 시 과태료가 부과됩니다.",
+    "ko": "모든 좌석에서 안전벨트를 매야 해요. 6세 미만 어린이는 카시트에 앉혀야 하며, 위반 시 과태료가 부과돼요.",
     "en": "Seat belts are mandatory in every seat. Children under six must ride in a child seat, and violations are fined.",
     "ja": "全席でシートベルトの着用が義務です。6歳未満の子どもはチャイルドシートに乗せる必要があり、違反には反則金が課されます。"
   },
   "faq_drunk_driving": {
-    "ko": "혈중알코올농도 0.03퍼센트부터 음주운전으로 처벌됩니다. 한 잔만 마셔도 운전하지 마세요.",
+    "ko": "혈중알코올농도 0.03퍼센트부터 음주운전으로 처벌돼요. 한 잔만 마셔도 운전하지 마세요.",
     "en": "Driving with a blood alcohol level of 0.03 percent or more is a criminal offence. Do not drive after even one drink.",
     "ja": "血中アルコール濃度0.03パーセント以上で飲酒運転として処罰されます。一杯でも飲んだら運転しないでください。"
   },
   "faq_phone_use": {
-    "ko": "주행 중 휴대전화를 손에 들고 사용하면 안 됩니다. 거치대에 두고 핸즈프리나 음성으로만 사용하세요.",
+    "ko": "주행 중 휴대전화를 손에 들고 사용하면 안 돼요. 거치대에 두고 핸즈프리나 음성으로만 사용하세요.",
     "en": "You may not hold a phone while driving. Keep it in a mount and use hands-free or voice control only.",
     "ja": "走行中に携帯電話を手に持って使うことは禁止です。ホルダーに置き、ハンズフリーか音声操作のみ使ってください。"
   },
   "faq_pedestrian": {
-    "ko": "횡단보도에 보행자가 있거나 건너려고 하면 신호가 없어도 반드시 일시정지해야 합니다. 보행자가 완전히 건넌 뒤 출발하세요.",
+    "ko": "횡단보도에 보행자가 있거나 건너려고 하면 신호가 없어도 반드시 일시정지해야 해요. 보행자가 완전히 건넌 뒤 출발하세요.",
     "en": "If a pedestrian is on or about to enter a crosswalk, you must stop, even where there is no signal. Move on only after they have fully crossed.",
     "ja": "横断歩道に歩行者がいる、または渡ろうとしている場合は、信号がなくても必ず一時停止してください。完全に渡り終えてから発進してください。"
   },
   "faq_left_turn": {
-    "ko": "좌회전은 좌회전 화살표 신호가 켜졌을 때만 할 수 있습니다. '비보호' 표지가 있는 교차로에서만 녹색 신호에 맞은편 차가 없을 때 좌회전할 수 있습니다.",
+    "ko": "좌회전은 좌회전 화살표 신호가 켜졌을 때만 할 수 있어요. '비보호' 표지가 있는 교차로에서만 녹색 신호에 맞은편 차가 없을 때 좌회전할 수 있어요.",
     "en": "Turn left only on a green left-turn arrow. At intersections marked 'unprotected left turn' you may turn on a plain green light when no oncoming traffic is coming.",
     "ja": "左折は左折矢印の信号が出ているときだけできます。「非保護左折」の標識がある交差点だけ、青信号で対向車がいないときに左折できます。"
   },
   "faq_yellow_light": {
-    "ko": "황색 신호는 정지 신호입니다. 정지선을 지나지 않았다면 멈춰야 하고, 황색에 교차로에 진입하면 신호위반으로 단속될 수 있습니다.",
+    "ko": "황색 신호는 정지 신호예요. 정지선을 지나지 않았다면 멈춰야 하고, 황색에 교차로에 진입하면 신호위반으로 단속될 수 있어요.",
     "en": "A yellow light means stop. If you have not crossed the stop line you must stop; entering the intersection on yellow can be ticketed as a signal violation.",
     "ja": "黄色信号は停止の合図です。停止線を越えていなければ止まる必要があり、黄色で交差点に進入すると信号無視として取り締まられることがあります。"
   },
   "faq_bus_lane": {
-    "ko": "파란 실선으로 표시된 차로는 버스 전용차로이며 승용차는 들어갈 수 없고 카메라로 단속됩니다. 운영 시간은 표지판을 확인하세요.",
+    "ko": "파란 실선으로 표시된 차로는 버스 전용차로이며 승용차는 들어갈 수 없고 카메라로 단속돼요. 운영 시간은 표지판을 확인하세요.",
     "en": "Lanes marked with solid blue lines are bus-only lanes; cars may not use them and cameras enforce this. Check the sign for the hours in force.",
     "ja": "青い実線で示された車線はバス専用車線で、乗用車は進入できずカメラで取り締まられます。運用時間は標識を確認してください。"
   },
   "faq_u_turn": {
-    "ko": "유턴은 유턴 표지가 있는 곳에서만 할 수 있습니다. 표지 아래 '보행신호 시'처럼 조건이 적혀 있으면 그 조건에서만 유턴하세요.",
+    "ko": "유턴은 유턴 표지가 있는 곳에서만 할 수 있어요. 표지 아래 '보행신호 시'처럼 조건이 적혀 있으면 그 조건에서만 유턴하세요.",
     "en": "U-turns are allowed only where a U-turn sign is posted. If a condition is written under the sign, such as 'on pedestrian green', U-turn only under that condition.",
     "ja": "Uターンは、Uターン標識がある場所だけでできます。標識の下に「歩行者信号時」などの条件が書かれていれば、その条件のときだけUターンしてください。"
   },
   "faq_parking": {
-    "ko": "도로 가장자리 황색 복선은 주차와 정차 모두 금지, 황색 실선은 시간대별 제한, 황색 점선은 5분 이내 정차만 가능합니다. 소화전 5미터 이내는 항상 금지입니다.",
+    "ko": "도로 가장자리 황색 복선은 주차와 정차 모두 금지, 황색 실선은 시간대별 제한, 황색 점선은 5분 이내 정차만 가능해요. 소화전 5미터 이내는 항상 금지예요.",
     "en": "At the curb, a double yellow line bans both parking and stopping, a solid yellow line has time-based limits, and a dashed yellow line allows stopping for up to five minutes. Never stop within five meters of a fire hydrant.",
     "ja": "路肩の黄色の二重線は駐車・停車とも禁止、黄色の実線は時間帯による制限、黄色の点線は5分以内の停車のみ可能です。消火栓から5メートル以内は常に禁止です。"
   },
   "faq_hipass": {
-    "ko": "톨게이트의 파란색 '하이패스' 차로는 단말기가 있는 차만 통과할 수 있습니다. 이 차에 단말기가 없으면 일반 차로에서 카드나 현금으로 결제하세요.",
+    "ko": "톨게이트의 파란색 '하이패스' 차로는 단말기가 있는 차만 통과할 수 있어요. 이 차에 단말기가 없으면 일반 차로에서 카드나 현금으로 결제하세요.",
     "en": "Blue 'Hi-pass' toll lanes are for cars with a transponder only. If this car has none, use a regular lane and pay by card or cash.",
     "ja": "料金所の青い「ハイパス」レーンは車載器のある車だけ通れます。この車に車載器がなければ、一般レーンでカードか現金で支払ってください。"
   },
   "faq_accident": {
-    "ko": "사고가 나면 안전한 곳에 차를 세우고 부상자를 살핀 뒤 112에 신고하고, 부상자가 있으면 119를 부르세요. 렌터카 회사에도 바로 연락하고, 현장을 떠나면 뺑소니로 처벌됩니다.",
+    "ko": "사고가 나면 안전한 곳에 차를 세우고 부상자를 살핀 뒤 112에 신고하고, 부상자가 있으면 119를 부르세요. 렌터카 회사에도 바로 연락하고, 현장을 떠나면 뺑소니로 처벌돼요.",
     "en": "After an accident, stop safely, check for injuries, call 112 for police and 119 if anyone is hurt. Contact the rental company right away; leaving the scene is treated as hit-and-run.",
     "ja": "事故が起きたら安全な場所に停車し、負傷者を確認して112に通報し、負傷者がいれば119を呼んでください。レンタカー会社にもすぐ連絡し、現場を離れるとひき逃げとして処罰されます。"
   },
-  "faq_fuel": {
-    "ko": "주유 전에 이 차의 유종을 확인하세요. 휘발유는 노란색, 경유는 녹색 주유기입니다. 잘못 넣었다면 시동을 걸지 말고 렌터카 회사에 연락하세요.",
-    "en": "Check this car's fuel type before refueling: gasoline pumps are yellow and diesel pumps are green in Korea. If you fill the wrong fuel, do not start the engine; call the rental company.",
-    "ja": "給油前にこの車の燃料の種類を確認してください。韓国ではガソリンは黄色、ディーゼルは緑色の給油機です。間違えて入れたらエンジンをかけず、レンタカー会社に連絡してください。"
-  },
   "faq_highway": {
-    "ko": "고속도로 최저속도는 시속 50킬로미터이고, 1차로는 앞지르기 전용이라 계속 달리면 단속됩니다. 통행료는 출구에서 내며, 갓길 주행은 금지입니다.",
+    "ko": "고속도로 최저속도는 시속 50킬로미터이고, 1차로는 앞지르기 전용이라 계속 달리면 단속돼요. 통행료는 출구에서 내며, 갓길 주행은 금지예요.",
     "en": "The minimum expressway speed is 50 km/h, and the leftmost lane is for overtaking only; staying in it is ticketed. Tolls are paid at the exit, and driving on the shoulder is prohibited.",
     "ja": "高速道路の最低速度は時速50キロで、1車線目は追い越し専用のため走り続けると取り締まられます。通行料は出口で支払い、路肩走行は禁止です。"
   },
   "faq_emergency": {
-    "ko": "경찰차나 구급차가 사이렌을 켜고 오면 오른쪽으로 비켜 길을 터 주세요. 긴급 번호는 경찰 112, 소방과 구급 119, 외국어 관광 안내는 1330입니다.",
+    "ko": "경찰차나 구급차가 사이렌을 켜고 오면 오른쪽으로 비켜 길을 터 주세요. 긴급 번호는 경찰 112, 소방과 구급 119, 외국어 관광 안내는 1330예요.",
     "en": "When a police car or ambulance approaches with its siren on, move to the right and make way. Emergency numbers: 112 for police, 119 for fire and ambulance, and 1330 for tourist help in foreign languages.",
     "ja": "パトカーや救急車がサイレンを鳴らして近づいたら、右に寄って道を空けてください。緊急番号は警察112、消防・救急119、外国語の観光案内は1330です。"
   },
   "faq_school_bus": {
-    "ko": "어린이 통학버스가 점멸등을 켜고 정차해 있으면 양쪽 방향 모두 일시정지한 뒤 서행해야 하고, 앞지르기는 금지입니다.",
+    "ko": "어린이 통학버스가 점멸등을 켜고 정차해 있으면 양쪽 방향 모두 일시정지한 뒤 서행해야 하고, 앞지르기는 금지예요.",
     "en": "When a school bus is stopped with its lights flashing, traffic in both directions must stop, then proceed slowly. Overtaking it is prohibited.",
     "ja": "通学バスが点滅灯をつけて停車しているときは、両方向とも一時停止してから徐行し、追い越しは禁止です。"
   },
   "faq_intersection": {
-    "ko": "신호 없는 교차로에서는 먼저 들어온 차가 우선이고, 동시에 들어오면 넓은 도로의 차, 그다음 오른쪽 차가 우선입니다. 서행하며 확인하세요.",
+    "ko": "신호 없는 교차로에서는 먼저 들어온 차가 우선이고, 동시에 들어오면 넓은 도로의 차, 그다음 오른쪽 차가 우선이에요. 서행하며 확인하세요.",
     "en": "At an intersection without signals, the vehicle that entered first has priority; if you arrive together, the vehicle on the wider road goes first, then the one on your right. Slow down and check.",
     "ja": "信号のない交差点では先に進入した車が優先で、同時なら広い道路の車、次に右側の車が優先です。徐行して確認してください。"
   },
   "faq_license": {
-    "ko": "운전할 때는 국제운전면허증, 본국 운전면허증, 여권을 함께 가지고 있어야 합니다. 경찰 요구 시 제시하세요.",
+    "ko": "운전할 때는 국제운전면허증, 본국 운전면허증, 여권을 함께 가지고 있어야 해요. 경찰 요구 시 제시하세요.",
     "en": "Carry your International Driving Permit, your home-country licence and your passport together while driving, and show them if the police ask.",
     "ja": "運転中は国際運転免許証、本国の運転免許証、パスポートを一緒に携帯してください。警察に求められたら提示してください。"
   },
   "fine_school_zone": {
-    "ko": "어린이보호구역 제한속도는 시속 30킬로미터입니다. 카메라 과태료는 승용차 기준 20킬로미터 이하 초과 7만 원, 40킬로미터 이하 10만 원, 60킬로미터 이하 13만 원, 그 이상 16만 원입니다. 고지서는 렌터카 회사로 가며, 회사가 수수료를 더해 청구합니다.",
+    "ko": "어린이보호구역 제한속도는 시속 30킬로미터예요. 카메라 과태료는 승용차 기준 20킬로미터 이하 초과 7만 원, 40킬로미터 이하 10만 원, 60킬로미터 이하 13만 원, 그 이상 16만 원이에요. 고지서는 렌터카 회사로 가며, 회사가 수수료를 더해 청구해요.",
     "en": "School zones are limited to 30 km/h. Camera fines for a passenger car are 70,000 won for up to 20 km/h over, 100,000 up to 40, 130,000 up to 60, and 160,000 beyond that. The notice goes to the rental company, which bills you with a handling fee.",
     "ja": "スクールゾーンの制限速度は時速30キロです。カメラの過料は乗用車で20キロ以下の超過が7万ウォン、40キロ以下10万ウォン、60キロ以下13万ウォン、それ以上16万ウォンです。通知はレンタカー会社に届き、手数料を加えて請求されます。"
   },
   "fine_camera": {
-    "ko": "일반 도로 과속 카메라 과태료는 승용차 기준 20킬로미터 이하 초과 4만 원, 40킬로미터 이하 7만 원, 60킬로미터 이하 10만 원, 그 이상 13만 원입니다. 고지서는 보통 2주에서 한 달 뒤 렌터카 회사에 도착하며, 회사가 수수료를 더해 청구합니다.",
+    "ko": "일반 도로 과속 카메라 과태료는 승용차 기준 20킬로미터 이하 초과 4만 원, 40킬로미터 이하 7만 원, 60킬로미터 이하 10만 원, 그 이상 13만 원이에요. 고지서는 보통 2주에서 한 달 뒤 렌터카 회사에 도착하며, 회사가 수수료를 더해 청구해요.",
     "en": "Speed camera fines on ordinary roads for a passenger car are 40,000 won for up to 20 km/h over, 70,000 up to 40, 100,000 up to 60, and 130,000 beyond that. The notice reaches the rental company in two to four weeks, and the company bills you with a handling fee.",
     "ja": "一般道路の速度カメラの過料は乗用車で20キロ以下の超過が4万ウォン、40キロ以下7万ウォン、60キロ以下10万ウォン、それ以上13万ウォンです。通知は通常2週間から1か月後にレンタカー会社に届き、手数料を加えて請求されます。"
   },
   "fine_section": {
-    "ko": "구간단속은 시작과 끝 사이 평균속도와 각 지점 속도를 모두 단속하며, 과태료는 일반 과속 카메라와 같습니다. 구간 중간에서만 속도를 줄여도 평균속도가 높으면 단속됩니다.",
+    "ko": "구간단속은 시작과 끝 사이 평균속도와 각 지점 속도를 모두 단속하며, 과태료는 일반 과속 카메라와 같아요. 구간 중간에서만 속도를 줄여도 평균속도가 높으면 단속돼요.",
     "en": "Section control checks both your average speed between the start and end points and your speed at each camera; fines are the same as ordinary speed cameras. Slowing only in the middle does not help if your average is too high.",
     "ja": "区間取り締まりは開始と終了の間の平均速度と各地点の速度の両方を取り締まり、過料は一般の速度カメラと同じです。途中だけ減速しても平均速度が高ければ取り締まられます。"
   },
   "fine_right_turn": {
-    "ko": "우회전 중 횡단보도 보행자를 보호하지 않으면 범칙금 6만 원과 벌점 10점, 빨간불에 정지선에서 멈추지 않으면 신호위반으로 범칙금 6만 원과 벌점 15점입니다. 경찰이 현장에서 단속하면 여권과 국제운전면허증을 제시하세요.",
+    "ko": "우회전 중 횡단보도 보행자를 보호하지 않으면 범칙금 6만 원과 벌점 10점, 빨간불에 정지선에서 멈추지 않으면 신호위반으로 범칙금 6만 원과 벌점 15점이에요. 경찰이 현장에서 단속하면 여권과 국제운전면허증을 제시하세요.",
     "en": "Failing to protect pedestrians while turning right costs a 60,000 won fine and 10 penalty points; not stopping at the line on red is a signal violation, 60,000 won and 15 points. If police stop you, show your passport and international driving permit.",
     "ja": "右折時に横断歩道の歩行者を保護しないと反則金6万ウォンと違反点数10点、赤信号で停止線に止まらないと信号違反で反則金6万ウォンと15点です。警察に止められたらパスポートと国際運転免許証を提示してください。"
   },
@@ -300,7 +295,7 @@
     "ja": "この画面を相手の運転者や警察に見せてください。"
   },
   "ui_emergency_card": {
-    "ko": "저는 한국어를 하지 못합니다. 이 차는 렌터카이며 보험으로 처리됩니다. 아래 번호로 연락해 주세요.",
+    "ko": "저는 한국어를 하지 못해요. 이 차는 렌터카이며 보험으로 처리돼요. 아래 번호로 연락해 주세요.",
     "en": "I do not speak Korean. This is a rental car and insurance will handle it. Please contact the numbers below.",
     "ja": "私は韓国語が話せません。この車はレンタカーで、保険で対応します。下の番号に連絡してください。"
   },
@@ -358,5 +353,605 @@
     "ko": "%d분",
     "en": "%d min",
     "ja": "%d分"
+  },
+  "ui_tour": {
+    "ko": "차량 조작 둘러보기",
+    "en": "Car controls tour",
+    "ja": "車の操作ガイド"
+  },
+  "ui_dictionary": {
+    "ko": "표지판·경고등 사전",
+    "en": "Signs & warning lights",
+    "ja": "標識・警告灯辞典"
+  },
+  "ui_signs": {
+    "ko": "도로 표지판·노면 글자",
+    "en": "Road signs & markings",
+    "ja": "道路標識・路面表示"
+  },
+  "ui_telltales": {
+    "ko": "계기판 경고등",
+    "en": "Dashboard warning lights",
+    "ja": "メーター警告灯"
+  },
+  "ui_checklist": {
+    "ko": "반납 체크리스트",
+    "en": "Return checklist",
+    "ja": "返却チェックリスト"
+  },
+  "ui_fuel": {
+    "ko": "연료",
+    "en": "Fuel",
+    "ja": "燃料"
+  },
+  "ui_battery": {
+    "ko": "배터리",
+    "en": "Battery",
+    "ja": "バッテリー"
+  },
+  "ui_level_unknown": {
+    "ko": "이 차에서는 잔량을 읽을 수 없어요. 계기판을 확인해 주세요.",
+    "en": "Level not available from this car; check the dashboard.",
+    "ja": "この車では残量を読めません。メーターを確認してください。"
+  },
+  "ctrl_gear_title": {
+    "ko": "기어 (컬럼 레버)",
+    "en": "Gear (column lever)",
+    "ja": "ギア（コラムレバー）"
+  },
+  "ctrl_gear": {
+    "ko": "핸들 오른쪽 아래의 짧은 레버예요. 브레이크를 밟은 채로 레버 끝을 앞으로 돌리면 D(전진), 뒤로 돌리면 R(후진), 가운데가 N이에요. 레버 끝의 버튼을 누르면 P예요. 정차 후에는 꼭 P를 누르세요.",
+    "en": "The short lever low on the right of the steering column. With your foot on the brake, twist its end forward for D (drive), back for R (reverse); the middle is N. Press the button on the end for P. Always press P when you stop.",
+    "ja": "ハンドル右下の短いレバーです。ブレーキを踏んだまま先端を前に回すとD（前進）、後ろに回すとR（後退）、中間がNです。先端のボタンを押すとPです。停車後は必ずPを押してください。"
+  },
+  "ctrl_parking_brake_title": {
+    "ko": "주차 브레이크",
+    "en": "Parking brake",
+    "ja": "パーキングブレーキ"
+  },
+  "ctrl_parking_brake": {
+    "ko": "P에 두면 자동으로 걸리고 D로 출발하면 자동으로 풀려요. 직접 조작하려면 핸들 왼쪽 아래의 P 스위치를 당기면 걸리고, 브레이크를 밟은 채로 누르면 풀려요. 가운데 콘솔의 AUTO HOLD를 켜면 정차 중에 브레이크에서 발을 떼도 돼요.",
+    "en": "It applies itself in P and releases when you drive off in D. To work it yourself, pull the P switch low on the left of the steering wheel to apply, and press it with your foot on the brake to release. Turn on AUTO HOLD on the centre console to rest your foot while stopped.",
+    "ja": "Pに入れると自動でかかり、Dで発進すると自動で解除されます。手動の場合はハンドル左下のPスイッチを引くとかかり、ブレーキを踏んだまま押すと解除されます。センターコンソールのAUTO HOLDをオンにすると停車中にブレーキから足を離せます。"
+  },
+  "ctrl_wiper_title": {
+    "ko": "와이퍼·워셔",
+    "en": "Wipers & washer",
+    "ja": "ワイパー・ウォッシャー"
+  },
+  "ctrl_wiper": {
+    "ko": "핸들 오른쪽 위 레버예요(아래의 짧은 레버는 기어). 아래로 내리면 작동하고 더 내릴수록 빨라져요. AUTO는 빗물 감지예요. 레버를 당기면 워셔액이 나오고, 밀면 뒷유리 와이퍼예요.",
+    "en": "The upper lever on the right of the column (the short one below it is the gear lever). Push it down to start; further down is faster. AUTO senses rain. Pull the lever toward you for washer fluid; push it away for the rear wiper.",
+    "ja": "ハンドル右上のレバーです（下の短いレバーはギア）。下げると作動し、さらに下げると速くなります。AUTOは雨滴感知です。手前に引くとウォッシャー液、奥に押すとリアワイパーです。"
+  },
+  "ctrl_lights_title": {
+    "ko": "전조등",
+    "en": "Headlights",
+    "ja": "ヘッドライト"
+  },
+  "ctrl_lights": {
+    "ko": "핸들 왼쪽 레버 끝을 돌려요. AUTO에 두면 어두워질 때 자동으로 켜지니 그대로 두세요. 레버를 앞으로 밀면 상향등, 당기면 순간 상향등이에요. 한국에서는 터널에서 전조등을 켜야 해요.",
+    "en": "Turn the end of the left-hand lever. Leave it on AUTO and the lights come on by themselves when it gets dark. Push the lever forward for high beam, pull for a flash. In Korea headlights must be on in tunnels.",
+    "ja": "ハンドル左側レバーの先端を回します。AUTOにしておけば暗くなると自動点灯します。レバーを前に押すとハイビーム、引くとパッシングです。韓国ではトンネル内は点灯義務があります。"
+  },
+  "ctrl_hipass_title": {
+    "ko": "하이패스",
+    "en": "Hi-pass",
+    "ja": "ハイパス"
+  },
+  "ctrl_hipass": {
+    "ko": "룸미러에 하이패스가 내장돼 있어요. 카드는 룸미러 아래쪽 슬롯에 들어 있고, 꽂혀 있으면 톨게이트의 파란 하이패스 차로를 30km/h 이하로 지나가면 돼요. 카드가 없으면 '일반' 차로에서 카드로 결제하세요.",
+    "en": "The Hi-pass unit is built into the rear-view mirror; the card sits in the slot on its underside. With a card in, take the blue Hi-pass lane at toll gates at 30 km/h or less. Without one, use a lane marked '일반' and pay by card.",
+    "ja": "ハイパスはルームミラーに内蔵されています。カードはミラー下部のスロットに入っており、挿してあれば料金所の青いハイパスレーンを30km/h以下で通過できます。カードがなければ「일반」レーンでカード払いしてください。"
+  },
+  "sign_stop_title": {
+    "ko": "정지",
+    "en": "Stop",
+    "ja": "止まれ"
+  },
+  "sign_stop": {
+    "ko": "빨간 팔각형 표지나 노면의 '정지'·'일시정지'는 완전히 멈춘 뒤 안전을 확인하고 출발하라는 뜻이에요.",
+    "en": "A red octagon or '정지'/'일시정지' on the road means come to a complete stop, check, then go.",
+    "ja": "赤い八角形や路面の「정지」「일시정지」は、完全に停止して安全確認後に進めという意味です。"
+  },
+  "sign_slow_title": {
+    "ko": "천천히",
+    "en": "Slow down",
+    "ja": "徐行"
+  },
+  "sign_slow": {
+    "ko": "노면에 크게 쓰인 '천천히'는 속도를 줄이라는 뜻이에요. 학교·골목·급커브 앞에 자주 있어요.",
+    "en": "'천천히' painted on the road means slow down. Common before schools, alleys and sharp bends.",
+    "ja": "路面に大きく書かれた「천천히」は減速せよの意味です。学校・路地・急カーブの前によくあります。"
+  },
+  "sign_yield_title": {
+    "ko": "양보",
+    "en": "Yield",
+    "ja": "譲れ"
+  },
+  "sign_yield": {
+    "ko": "역삼각형 표지나 '양보'는 교차하는 도로의 차에 길을 양보하라는 뜻이에요.",
+    "en": "An inverted triangle or '양보' means give way to traffic on the crossing road.",
+    "ja": "逆三角形の標識や「양보」は、交差する道路の車に道を譲れという意味です。"
+  },
+  "sign_school_zone_title": {
+    "ko": "어린이보호구역",
+    "en": "School zone",
+    "ja": "スクールゾーン"
+  },
+  "sign_school_zone": {
+    "ko": "노란 표지와 빨간 노면. 제한속도는 보통 30km/h이고 위반 시 벌금이 2배 이상이에요. 횡단보도 앞에서는 보행자가 없어도 일시정지해요.",
+    "en": "Yellow signs and red road surface. Limit is usually 30 km/h and fines are at least doubled. Stop at crosswalks even when nobody is crossing.",
+    "ja": "黄色い標識と赤い路面。制限速度は通常30km/hで、違反時の罰金は2倍以上です。横断歩道の前では歩行者がいなくても一時停止します。"
+  },
+  "sign_senior_zone_title": {
+    "ko": "노인보호구역",
+    "en": "Senior zone",
+    "ja": "高齢者保護区域"
+  },
+  "sign_senior_zone": {
+    "ko": "경로당·요양시설 주변이에요. 제한속도는 보통 30km/h이고 위반 시 벌금이 가중돼요.",
+    "en": "Around senior centres and care homes. Limit is usually 30 km/h with increased fines.",
+    "ja": "老人福祉施設の周辺です。制限速度は通常30km/hで、違反時の罰金が加重されます。"
+  },
+  "sign_no_entry_title": {
+    "ko": "진입금지",
+    "en": "Do not enter",
+    "ja": "進入禁止"
+  },
+  "sign_no_entry": {
+    "ko": "빨간 원에 흰 가로줄, 또는 '진입금지'. 들어가면 역주행이에요.",
+    "en": "A red circle with a white bar, or '진입금지'. Entering means driving against traffic.",
+    "ja": "赤い円に白い横線、または「진입금지」。進入すると逆走になります。"
+  },
+  "sign_one_way_title": {
+    "ko": "일방통행",
+    "en": "One way",
+    "ja": "一方通行"
+  },
+  "sign_one_way": {
+    "ko": "파란 화살표 표지. 화살표 방향으로만 갈 수 있어요. 좁은 시내 길에 많아요.",
+    "en": "Blue arrow sign; travel only in the arrow's direction. Common on narrow city streets.",
+    "ja": "青い矢印の標識。矢印の方向にしか進めません。市街地の狭い道に多いです。"
+  },
+  "sign_no_parking_title": {
+    "ko": "주차금지 · 주정차금지",
+    "en": "No parking / No stopping",
+    "ja": "駐車禁止・駐停車禁止"
+  },
+  "sign_no_parking": {
+    "ko": "도로 가장자리 노란 실선은 주차 금지, 노란 겹선은 정차도 금지예요. 노란 점선은 5분 이내 정차만 가능해요. 흰 선은 주차 가능이에요.",
+    "en": "A yellow solid kerb line means no parking; a double yellow line means no stopping at all. A dashed yellow line allows stops under 5 minutes. White means parking is allowed.",
+    "ja": "路肩の黄色い実線は駐車禁止、黄色の二重線は停車も禁止です。黄色の点線は5分以内の停車のみ可。白線は駐車可能です。"
+  },
+  "sign_tow_zone_title": {
+    "ko": "견인지역",
+    "en": "Tow-away zone",
+    "ja": "レッカー移動区域"
+  },
+  "sign_tow_zone": {
+    "ko": "여기에 주차하면 차가 견인돼요. 견인되면 렌터카 회사에 바로 연락하세요. 보관료는 시간당 부과돼요.",
+    "en": "Parked cars here are towed. If towed, call the rental company right away; storage fees accrue hourly.",
+    "ja": "ここに駐車するとレッカー移動されます。移動されたらすぐレンタカー会社に連絡してください。保管料は時間ごとに加算されます。"
+  },
+  "sign_bus_lane_title": {
+    "ko": "버스전용차로",
+    "en": "Bus lane",
+    "ja": "バス専用車線"
+  },
+  "sign_bus_lane": {
+    "ko": "파란 실선 차로는 버스만 다닐 수 있어요. 고속도로 버스전용차로는 9인승 이상 6명 이상 탑승 차만 가능해요. 카메라로 단속해요.",
+    "en": "Lanes marked with blue lines are for buses only. On expressways, only vehicles with 9+ seats carrying 6+ people may use them. Camera enforced.",
+    "ja": "青い実線の車線はバス専用です。高速道路のバス専用車線は9人乗り以上で6人以上乗車の車のみ通行可。カメラで取り締まられます。"
+  },
+  "sign_unprotected_left_title": {
+    "ko": "비보호",
+    "en": "Unprotected left turn",
+    "ja": "非保護左折"
+  },
+  "sign_unprotected_left": {
+    "ko": "'비보호' 표지가 있는 교차로에서는 녹색 신호에 마주 오는 차가 없을 때 좌회전할 수 있어요. 좌회전 신호가 없어도 돼요. 사고가 나면 좌회전 차 책임이에요.",
+    "en": "At an intersection marked '비보호' you may turn left on a green light when no traffic is coming. No left-turn arrow is needed. If there is a crash, the turning car is at fault.",
+    "ja": "「비보호」標識のある交差点では、青信号で対向車がいないときに左折できます。左折矢印は不要です。事故の場合は左折車の責任になります。"
+  },
+  "sign_u_turn_title": {
+    "ko": "유턴 · 보행신호시 · 좌회전시",
+    "en": "U-turn (conditions)",
+    "ja": "Uターン（条件付き）"
+  },
+  "sign_u_turn": {
+    "ko": "유턴 표지 아래 글자가 조건이에요. '보행신호시'는 횡단보도 보행 신호가 녹색일 때, '좌회전시'는 좌회전 신호일 때만 유턴할 수 있어요. 글자가 없으면 신호와 관계없이 안전할 때 가능해요.",
+    "en": "The text under a U-turn sign is the condition. '보행신호시' = only while the pedestrian signal is green; '좌회전시' = only on the left-turn arrow. No text means any time it is safe.",
+    "ja": "Uターン標識の下の文字が条件です。「보행신호시」は歩行者信号が青のとき、「좌회전시」は左折信号のときのみUターン可。文字がなければ信号に関係なく安全なときに可能です。"
+  },
+  "sign_right_turn_stop_title": {
+    "ko": "우회전 일시정지",
+    "en": "Stop before turning right",
+    "ja": "右折一時停止"
+  },
+  "sign_right_turn_stop": {
+    "ko": "우회전 전에 멈추라는 뜻이에요. 전방 신호가 빨간불이면 반드시 정지한 뒤, 보행자가 없을 때만 우회전해요. 우회전 전용 신호등이 있으면 그 신호를 따라요.",
+    "en": "Stop before turning right. If the light ahead is red, come to a full stop and turn only when no pedestrians are crossing. If there is a right-turn signal, obey it.",
+    "ja": "右折前に止まれという意味です。前方の信号が赤なら必ず停止し、歩行者がいないときだけ右折します。右折専用信号があればそれに従います。"
+  },
+  "sign_speed_camera_title": {
+    "ko": "단속카메라 · 속도를 줄이시오",
+    "en": "Speed camera ahead",
+    "ja": "速度取締カメラ"
+  },
+  "sign_speed_camera": {
+    "ko": "앞에 과속 카메라가 있어요. 제한속도 표지의 숫자 이하로 줄이세요. 한국은 카메라 단속이 매우 많고 과태료는 렌터카 회사로 가요.",
+    "en": "A speed camera is ahead. Slow to the number on the limit sign. Korea has very many cameras and the fine goes to the rental company.",
+    "ja": "前方に速度カメラがあります。制限速度標識の数字以下に減速してください。韓国はカメラ取締りが非常に多く、罰金はレンタカー会社に届きます。"
+  },
+  "sign_section_control_title": {
+    "ko": "구간단속",
+    "en": "Average-speed section",
+    "ja": "区間取締り"
+  },
+  "sign_section_control": {
+    "ko": "시작과 끝 지점 사이의 평균속도를 측정해요. 카메라 앞에서만 줄이는 것은 소용이 없어요. 구간 전체를 제한속도 이하로 유지하세요.",
+    "en": "Average speed is measured between the start and end points. Slowing only at the cameras does not help; stay under the limit for the whole section.",
+    "ja": "開始地点と終了地点の間の平均速度を測ります。カメラの前だけ減速しても意味がありません。区間全体で制限速度以下を保ってください。"
+  },
+  "sign_crosswalk_title": {
+    "ko": "횡단보도",
+    "en": "Crosswalk",
+    "ja": "横断歩道"
+  },
+  "sign_crosswalk": {
+    "ko": "파란 표지와 흰 줄무늬. 보행자가 건너거나 건너려 하면 반드시 멈춰야 해요. 신호가 없는 횡단보도도 같아요.",
+    "en": "Blue sign and white stripes. You must stop when anyone is crossing or about to cross, also at crosswalks without signals.",
+    "ja": "青い標識と白いしま模様。歩行者が渡っている、または渡ろうとしていれば必ず止まります。信号のない横断歩道でも同じです。"
+  },
+  "sign_hipass_title": {
+    "ko": "하이패스",
+    "en": "Hi-pass lane",
+    "ja": "ハイパスレーン"
+  },
+  "sign_hipass": {
+    "ko": "톨게이트의 파란색 차로예요. 단말기와 카드가 있는 차만 통과할 수 있고 30km/h 이하로 지나가요. 없으면 '일반' 차로로 가세요.",
+    "en": "The blue lane at a toll gate. Only for cars with a Hi-pass unit and card; pass at 30 km/h or less. Otherwise take a lane marked '일반'.",
+    "ja": "料金所の青いレーンです。ハイパス車載器とカードがある車だけ通過でき、30km/h以下で通ります。なければ「일반」レーンへ。"
+  },
+  "sign_toll_title": {
+    "ko": "요금소 · 톨게이트",
+    "en": "Toll gate",
+    "ja": "料金所"
+  },
+  "sign_toll": {
+    "ko": "고속도로 요금소가 가까워져요. 하이패스가 없으면 '일반' 차로로 들어가 카드나 현금으로 내요. 통행권을 받았으면 나갈 때 내세요.",
+    "en": "An expressway toll gate is near. Without Hi-pass, enter a lane marked '일반' and pay by card or cash. If you took a ticket, hand it in at the exit.",
+    "ja": "高速道路の料金所が近づいています。ハイパスがなければ「일반」レーンに入り、カードか現金で払います。通行券を取った場合は出口で渡してください。"
+  },
+  "sign_rest_area_title": {
+    "ko": "휴게소",
+    "en": "Rest area",
+    "ja": "サービスエリア"
+  },
+  "sign_rest_area": {
+    "ko": "고속도로 휴게소예요. 주유소, 화장실, 식당이 있어요. 다음 휴게소까지 거리가 함께 표시돼요.",
+    "en": "Expressway rest area with fuel, toilets and restaurants. The distance to the next one is shown too.",
+    "ja": "高速道路のサービスエリアです。ガソリンスタンド、トイレ、食堂があります。次のエリアまでの距離も表示されます。"
+  },
+  "telltale_low_ev_battery_title": {
+    "ko": "배터리 부족",
+    "en": "Low EV battery",
+    "ja": "駆動バッテリー残量警告"
+  },
+  "telltale_low_ev_battery": {
+    "ko": "배터리가 거의 없어요. 내비에서 가장 가까운 급속 충전소를 찾으세요. 회생제동을 세게(왼쪽 패들) 하고 에어컨을 줄이면 더 갈 수 있어요. 렌터카 회사의 충전 카드가 있는지 확인하세요.",
+    "en": "The battery is nearly empty. Find the nearest fast charger in the navigation. Stronger regen (left paddle) and less air-conditioning stretch the range. Check whether the rental company gave you a charging card.",
+    "ja": "バッテリーがほぼありません。ナビで最寄りの急速充電所を探してください。回生を強め（左パドル）、エアコンを弱めると航続が伸びます。レンタカー会社の充電カードがあるか確認してください。"
+  },
+  "telltale_charging_connector_title": {
+    "ko": "충전 케이블 연결됨",
+    "en": "Charging cable connected",
+    "ja": "充電ケーブル接続中"
+  },
+  "telltale_charging_connector": {
+    "ko": "충전 케이블이 연결되어 있어 출발할 수 없어요. 충전기에서 결제를 끝내고 케이블을 뽑으세요.",
+    "en": "The charging cable is still connected, so the car will not drive. Finish payment at the charger and unplug.",
+    "ja": "充電ケーブルが接続されているため発進できません。充電器で決済を終えてケーブルを外してください。"
+  },
+  "telltale_tpms_title": {
+    "ko": "타이어 공기압",
+    "en": "Tyre pressure",
+    "ja": "タイヤ空気圧"
+  },
+  "telltale_tpms": {
+    "ko": "타이어 하나 이상의 공기압이 낮아요. 속도를 줄이고 가까운 주유소에서 공기를 넣거나 렌터카 회사에 연락하세요. 계속 켜져 있거나 깜빡이면 운행을 멈추세요.",
+    "en": "One or more tyres are under-inflated. Slow down and add air at a fuel station, or call the rental company. If it stays on or blinks, stop driving.",
+    "ja": "1本以上のタイヤの空気圧が低いです。速度を落とし、近くのスタンドで空気を入れるかレンタカー会社に連絡してください。点灯し続けたり点滅したら運転を止めてください。"
+  },
+  "telltale_seat_belt_title": {
+    "ko": "안전벨트",
+    "en": "Seat belt",
+    "ja": "シートベルト"
+  },
+  "telltale_seat_belt": {
+    "ko": "안전벨트를 매지 않은 좌석이 있어요. 한국은 모든 좌석이 의무이고 운전자가 벌금을 내요. 6세 미만은 카시트가 필요해요.",
+    "en": "A seat belt is unbuckled. In Korea every seat must be belted and the driver pays the fine. Children under 6 need a car seat.",
+    "ja": "シートベルト未着用の座席があります。韓国は全席着用義務で、罰金は運転者が払います。6歳未満はチャイルドシートが必要です。"
+  },
+  "telltale_door_open_title": {
+    "ko": "문 열림",
+    "en": "Door open",
+    "ja": "ドア開放"
+  },
+  "telltale_door_open": {
+    "ko": "문이나 트렁크, 후드가 완전히 닫히지 않았어요. 출발 전에 닫으세요.",
+    "en": "A door, the trunk or the hood is not fully closed. Close it before driving.",
+    "ja": "ドア、トランク、ボンネットのどれかが完全に閉まっていません。発進前に閉めてください。"
+  },
+  "telltale_parking_brake_title": {
+    "ko": "주차 브레이크",
+    "en": "Parking brake",
+    "ja": "パーキングブレーキ"
+  },
+  "telltale_parking_brake": {
+    "ko": "주차 브레이크가 걸려 있어요. 브레이크 페달을 밟은 채로 P 스위치를 누르면 풀려요. 주행 중에 켜지면 브레이크 계통 이상이니 멈추세요.",
+    "en": "The parking brake is on. Press the P switch with your foot on the brake to release. If it lights up while driving, stop; it signals a brake fault.",
+    "ja": "パーキングブレーキがかかっています。ブレーキを踏んだままPスイッチを押すと解除されます。走行中に点灯したらブレーキ系統の異常なので停止してください。"
+  },
+  "telltale_auto_hold_title": {
+    "ko": "오토 홀드",
+    "en": "Auto hold",
+    "ja": "オートホールド"
+  },
+  "telltale_auto_hold": {
+    "ko": "정차 시 브레이크를 자동으로 잡아 주는 기능이 켜져 있어요. 액셀을 밟으면 풀려요. 센터 콘솔 AUTO HOLD 버튼으로 끌 수 있어요.",
+    "en": "Auto hold keeps the brakes on when you stop; press the accelerator to go. Turn it off with the AUTO HOLD button on the centre console.",
+    "ja": "停車時にブレーキを自動で保持する機能がオンです。アクセルを踏むと解除されます。センターコンソールのAUTO HOLDボタンで切れます。"
+  },
+  "telltale_12v_battery_title": {
+    "ko": "배터리 충전",
+    "en": "Charging system",
+    "ja": "充電系統"
+  },
+  "telltale_12v_battery": {
+    "ko": "12V 배터리가 충전되지 않고 있어요. 전기 장치를 끄고 가까운 곳에 세우세요. 시동이 꺼질 수 있으니 렌터카 회사에 연락하세요.",
+    "en": "The 12 V battery is not charging. Switch off electrics and pull over soon; the car may stall. Call the rental company.",
+    "ja": "12Vバッテリーが充電されていません。電装品を切り、近くに停めてください。エンジンが止まる可能性があるのでレンタカー会社に連絡してください。"
+  },
+  "telltale_abs_title": {
+    "ko": "ABS",
+    "en": "ABS",
+    "ja": "ABS"
+  },
+  "telltale_abs": {
+    "ko": "미끄러짐 방지 브레이크(ABS)에 이상이 있어요. 일반 브레이크는 작동하지만 급제동 시 미끄러질 수 있어요. 천천히 운행하고 렌터카 회사에 알리세요.",
+    "en": "The anti-lock braking system has a fault. Normal braking still works but wheels may lock under hard braking. Drive gently and tell the rental company.",
+    "ja": "ABSに異常があります。通常のブレーキは効きますが、急ブレーキ時に滑ることがあります。ゆっくり走り、レンタカー会社に知らせてください。"
+  },
+  "telltale_esc_title": {
+    "ko": "차체 자세 제어",
+    "en": "Stability control",
+    "ja": "横滑り防止装置"
+  },
+  "telltale_esc": {
+    "ko": "깜빡이면 지금 미끄러짐을 잡고 있는 중이에요. 속도를 줄이세요. 계속 켜져 있으면 장치 이상이니 렌터카 회사에 알리세요.",
+    "en": "Blinking means it is correcting a skid right now; slow down. Steady on means a fault; tell the rental company.",
+    "ja": "点滅中は横滑りを抑えているところです。速度を落としてください。点灯し続ける場合は装置の異常なのでレンタカー会社に知らせてください。"
+  },
+  "telltale_esc_off_title": {
+    "ko": "자세 제어 꺼짐",
+    "en": "Stability control off",
+    "ja": "横滑り防止オフ"
+  },
+  "telltale_esc_off": {
+    "ko": "차체 자세 제어가 꺼져 있어요. 센터 콘솔의 미끄러지는 차 그림 버튼을 눌러 다시 켜세요.",
+    "en": "Stability control is switched off. Press the skidding-car button on the centre console to turn it back on.",
+    "ja": "横滑り防止装置がオフです。センターコンソールの滑る車のマークのボタンを押して再びオンにしてください。"
+  },
+  "telltale_airbag_title": {
+    "ko": "에어백",
+    "en": "Airbag",
+    "ja": "エアバッグ"
+  },
+  "telltale_airbag": {
+    "ko": "에어백 장치에 이상이 있어 사고 시 작동하지 않을 수 있어요. 운행은 가능하지만 렌터카 회사에 알리고 차량 교체를 요청하세요.",
+    "en": "The airbag system has a fault and may not deploy in a crash. You can drive, but tell the rental company and ask for another car.",
+    "ja": "エアバッグ装置に異常があり、事故時に作動しない可能性があります。走行は可能ですが、レンタカー会社に知らせて車両交換を依頼してください。"
+  },
+  "telltale_master_warning_title": {
+    "ko": "종합 경고",
+    "en": "Master warning",
+    "ja": "マスターワーニング"
+  },
+  "telltale_master_warning": {
+    "ko": "계기판 가운데에 자세한 경고 메시지가 표시돼요. 한국어라면 사진을 찍어 렌터카 회사에 보내세요.",
+    "en": "A detailed warning message is shown in the centre of the instrument cluster. If it is in Korean, photograph it and send it to the rental company.",
+    "ja": "メーター中央に詳しい警告メッセージが表示されています。韓国語なら写真を撮ってレンタカー会社に送ってください。"
+  },
+  "telltale_ev_system_title": {
+    "ko": "전기차 시스템",
+    "en": "EV system",
+    "ja": "EVシステム"
+  },
+  "telltale_ev_system": {
+    "ko": "전기 구동 장치에 이상이 있어요. 출력이 줄어들 수 있어요. 안전한 곳에 세우고 렌터카 회사에 연락하세요.",
+    "en": "The electric drive system has a fault; power may be reduced. Pull over safely and call the rental company.",
+    "ja": "電動駆動系に異常があります。出力が低下することがあります。安全な場所に停めてレンタカー会社に連絡してください。"
+  },
+  "telltale_power_down_title": {
+    "ko": "출력 제한",
+    "en": "Power limited",
+    "ja": "出力制限"
+  },
+  "telltale_power_down": {
+    "ko": "과열이나 배터리 부족으로 출력이 제한됐어요. 가속이 느려져요. 고속도로에서는 바깥 차로로 옮기세요.",
+    "en": "Power is limited because of overheating or a low battery. Acceleration will be weak; on an expressway move to the outer lane.",
+    "ja": "過熱やバッテリー不足のため出力が制限されています。加速が鈍ります。高速道路では外側の車線に移ってください。"
+  },
+  "telltale_immobilizer_title": {
+    "ko": "스마트키 인식",
+    "en": "Key not detected",
+    "ja": "スマートキー未検出"
+  },
+  "telltale_immobilizer": {
+    "ko": "스마트키를 인식하지 못해요. 키를 차 안에 두고 시동 버튼을 키로 직접 눌러 보세요. 그래도 안 되면 렌터카 회사에 연락하세요.",
+    "en": "The smart key is not detected. Keep the key inside the car and press the start button with the key itself. If that fails, call the rental company.",
+    "ja": "スマートキーを認識できません。キーを車内に置き、キー本体でスタートボタンを押してみてください。それでも無理ならレンタカー会社に連絡してください。"
+  },
+  "telltale_over_speed_title": {
+    "ko": "과속 경고",
+    "en": "Over-speed warning",
+    "ja": "速度超過警告"
+  },
+  "telltale_over_speed": {
+    "ko": "설정된 속도를 넘었어요. 한국 고속도로 제한속도는 대부분 100 또는 110km/h이고 카메라 단속이 많아요. 속도를 줄이세요.",
+    "en": "You are over the set speed. Most Korean expressways are limited to 100 or 110 km/h with many cameras. Slow down.",
+    "ja": "設定速度を超えています。韓国の高速道路の制限速度はほとんど100または110km/hで、カメラ取締りが多いです。減速してください。"
+  },
+  "telltale_icy_road_title": {
+    "ko": "노면 결빙 주의",
+    "en": "Icy road warning",
+    "ja": "路面凍結注意"
+  },
+  "telltale_icy_road": {
+    "ko": "바깥 온도가 낮아 노면이 얼 수 있어요. 다리와 터널 출구, 그늘진 길에서 속도를 줄이고 급제동을 피하세요.",
+    "en": "Outside temperature is low enough for ice. Slow down and avoid hard braking on bridges, at tunnel exits and in shade.",
+    "ja": "外気温が低く路面が凍結する可能性があります。橋やトンネル出口、日陰の道では速度を落とし急ブレーキを避けてください。"
+  },
+  "telltale_high_beam_title": {
+    "ko": "상향등",
+    "en": "High beam",
+    "ja": "ハイビーム"
+  },
+  "telltale_high_beam": {
+    "ko": "상향등이 켜져 있어요. 마주 오는 차가 있으면 왼쪽 레버를 당겨 끄세요. 시내에서는 상향등을 쓰지 않아요.",
+    "en": "High beam is on. Pull the left lever to switch it off when traffic approaches. Do not use high beam in town.",
+    "ja": "ハイビームが点灯しています。対向車がいれば左レバーを引いて切ってください。市街地ではハイビームを使いません。"
+  },
+  "telltale_fog_lamp_title": {
+    "ko": "안개등",
+    "en": "Fog lamp",
+    "ja": "フォグランプ"
+  },
+  "telltale_fog_lamp": {
+    "ko": "안개등이 켜져 있어요. 안개나 폭우가 아닐 때는 왼쪽 레버의 안개등 링을 돌려 끄세요.",
+    "en": "A fog lamp is on. Unless there is fog or heavy rain, turn the fog-lamp ring on the left lever to switch it off.",
+    "ja": "フォグランプが点灯しています。霧や豪雨でなければ、左レバーのフォグランプリングを回して切ってください。"
+  },
+  "check_energy_title": {
+    "ko": "충전량 확인",
+    "en": "Charge level",
+    "ja": "充電量の確認"
+  },
+  "check_hipass_card_title": {
+    "ko": "하이패스 카드 그대로",
+    "en": "Hi-pass card left in the unit",
+    "ja": "ハイパスカードはそのまま"
+  },
+  "check_hipass_card": {
+    "ko": "단말기에 들어 있던 카드는 빼지 마세요. 빌릴 때 없었다면 넣은 카드만 챙기세요.",
+    "en": "Leave the card that was in the unit. If there was none when you picked up the car, take only the card you inserted.",
+    "ja": "車載器に入っていたカードは抜かないでください。借りた時になかったなら、自分で入れたカードだけ持ち帰ってください。"
+  },
+  "check_belongings_title": {
+    "ko": "소지품",
+    "en": "Belongings",
+    "ja": "持ち物"
+  },
+  "check_belongings": {
+    "ko": "글러브박스, 좌석 밑, 트렁크, 휴대폰 충전 케이블, 선글라스, 주차권을 확인하세요.",
+    "en": "Check the glove box, under the seats, the trunk, phone charging cable, sunglasses and parking tickets.",
+    "ja": "グローブボックス、座席の下、トランク、充電ケーブル、サングラス、駐車券を確認してください。"
+  },
+  "check_photos_title": {
+    "ko": "외관·계기판 사진",
+    "en": "Photos of the car",
+    "ja": "外観・メーターの写真"
+  },
+  "check_photos": {
+    "ko": "네 면과 휠, 계기판(주행거리·연료)을 휴대폰으로 찍어 두세요. 반납 후 분쟁을 막아 줘요.",
+    "en": "Photograph all four sides, the wheels and the dashboard (mileage, fuel) with your phone. It prevents disputes after return.",
+    "ja": "四方の外観、ホイール、メーター（走行距離・燃料）をスマホで撮っておいてください。返却後のトラブルを防げます。"
+  },
+  "check_park_title": {
+    "ko": "P · 전조등 · 창문",
+    "en": "P, lights, windows",
+    "ja": "P・ライト・窓"
+  },
+  "check_park": {
+    "ko": "기어 레버 끝의 P 버튼을 누르고 전조등은 AUTO에 두세요. 창문을 닫고 시동 버튼을 눌러 끄세요. 충전 케이블이 꽂혀 있으면 빼세요.",
+    "en": "Press the P button on the end of the gear lever and leave the headlights on AUTO. Close the windows and press the start button to switch off. Unplug any charging cable.",
+    "ja": "ギアレバー先端のPボタンを押し、ヘッドライトはAUTOのままに。窓を閉めてスタートボタンを押して切ってください。充電ケーブルが挿さっていれば抜いてください。"
+  },
+  "check_energy": {
+    "ko": "빌릴 때와 같은 충전량으로 반납해요. 부족하면 렌터카 회사가 비싼 단가로 청구해요. 반납 전 급속 충전소는 내비에서 찾을 수 있어요.",
+    "en": "Return it at the same charge level as at pick-up; otherwise the rental company charges a premium rate. The navigation can find a fast charger near the return point.",
+    "ja": "借りた時と同じ充電量で返却します。不足分はレンタカー会社が高い単価で請求します。返却前の急速充電所はナビで探せます。"
+  },
+  "ctrl_start_title": {
+    "ko": "시동",
+    "en": "Start button",
+    "ja": "始動"
+  },
+  "ctrl_start": {
+    "ko": "브레이크를 밟은 채로 핸들 오른쪽의 시동 버튼을 누르세요. 계기판에 READY가 켜지면 출발할 수 있어요. 전기차라 소리가 나지 않아요. 끌 때는 P에 두고 같은 버튼을 누르세요.",
+    "en": "With your foot on the brake, press the start button to the right of the steering wheel. When READY shows on the cluster you can drive; being electric, it makes no sound. To switch off, shift to P and press the same button.",
+    "ja": "ブレーキを踏んだままハンドル右側のスタートボタンを押してください。メーターにREADYが点灯したら発進できます。電気自動車なので音はしません。切るときはPに入れて同じボタンを押します。"
+  },
+  "ctrl_regen_title": {
+    "ko": "회생제동 패들",
+    "en": "Regen paddles",
+    "ja": "回生ブレーキパドル"
+  },
+  "ctrl_regen": {
+    "ko": "핸들 뒤 양쪽 패들로 액셀에서 발을 뗐을 때 감속 세기를 바꿔요. 왼쪽(-)을 당기면 더 세게, 오른쪽(+)을 당기면 약하게. 왼쪽 패들을 1초 이상 당기면 i-PEDAL이 켜져 액셀만으로 완전히 멈출 수 있어요. 처음이면 2단계 정도가 편해요.",
+    "en": "The paddles behind the wheel set how hard the car slows when you lift off the accelerator. Pull the left (−) for stronger, the right (+) for gentler. Hold the left paddle for a second to turn on i-PEDAL, which lets you stop completely with the accelerator alone. Level 2 is comfortable if you are new to it.",
+    "ja": "ハンドル裏の左右パドルで、アクセルを離したときの減速の強さを変えます。左（−）を引くと強く、右（+）を引くと弱く。左パドルを1秒以上引くとi-PEDALがオンになり、アクセルだけで完全に止まれます。初めてなら2段階くらいが楽です。"
+  },
+  "ctrl_charge_port_title": {
+    "ko": "충전구",
+    "en": "Charge port",
+    "ja": "充電口"
+  },
+  "ctrl_charge_port": {
+    "ko": "뒷좌석 오른쪽(조수석 쪽) 뒤 펜더에 있어요. 차 문이 잠겨 있지 않을 때 뚜껑을 누르면 열려요. 급속은 DC 콤보(CCS1), 완속은 AC 커넥터예요. 충전 중에는 시동이 걸리지 않아요. 끝나면 케이블을 빼고 뚜껑을 닫으세요.",
+    "en": "On the rear right (passenger side) quarter panel. Press the flap to open it while the car is unlocked. Fast charging uses the DC combo (CCS1) plug, slow charging the AC plug. The car will not start while charging. Unplug and close the flap when done.",
+    "ja": "後部右側（助手席側）のリアフェンダーにあります。ドアが解錠されているときに蓋を押すと開きます。急速はDCコンボ（CCS1）、普通充電はACコネクタです。充電中は始動できません。終わったらケーブルを抜いて蓋を閉めてください。"
+  },
+  "faq_charging_title": {
+    "ko": "충전",
+    "en": "Charging",
+    "ja": "充電"
+  },
+  "faq_charging": {
+    "ko": "급속 충전기는 고속도로 휴게소, 대형마트, 공영주차장에 많아요. 충전구를 열고 DC 콤보 케이블을 꽂은 뒤 충전기 화면에서 렌터카 회사가 준 충전 카드나 신용카드로 결제해요. 80%까지가 빠르고 그 뒤는 느려져요. 충전이 끝나면 바로 차를 빼 주세요. 자리를 차지하면 과태료가 있어요.",
+    "en": "Fast chargers are common at expressway rest areas, big supermarkets and public car parks. Open the port, plug in the DC combo cable, then pay on the charger screen with the charging card the rental company gave you or a credit card. Charging is quick up to 80 % and slows after. Move the car as soon as it finishes; staying in the bay is fined.",
+    "ja": "急速充電器は高速道路のサービスエリア、大型スーパー、公営駐車場に多くあります。充電口を開けてDCコンボのケーブルを挿し、充電器の画面でレンタカー会社の充電カードかクレジットカードで決済します。80%までは速く、その後は遅くなります。終わったらすぐ車を移動してください。占有すると罰金があります。"
+  },
+  "telltale_ready_title": {
+    "ko": "READY",
+    "en": "READY",
+    "ja": "READY"
+  },
+  "telltale_ready": {
+    "ko": "시동이 걸린 상태예요. 전기차는 소리가 없어서 이 표시로 확인해요. READY가 켜져 있으면 바로 출발할 수 있어요.",
+    "en": "The car is switched on and ready to drive. Electric cars make no sound, so this is how you tell. With READY on you can drive off.",
+    "ja": "始動している状態です。電気自動車は音がしないのでこの表示で確認します。READYが点灯していればすぐ発進できます。"
+  },
+  "telltale_i_pedal_title": {
+    "ko": "i-PEDAL",
+    "en": "i-PEDAL",
+    "ja": "i-PEDAL"
+  },
+  "telltale_i_pedal": {
+    "ko": "원페달 모드가 켜져 있어요. 액셀에서 발을 떼면 강하게 감속하고 완전히 멈춰요. 끄려면 오른쪽(+) 패들을 당기세요.",
+    "en": "One-pedal mode is on: lifting off the accelerator slows the car hard and brings it to a full stop. Pull the right (+) paddle to turn it off.",
+    "ja": "ワンペダルモードがオンです。アクセルを離すと強く減速し、完全に停止します。切るには右（+）パドルを引いてください。"
+  },
+  "telltale_battery_conditioning_title": {
+    "ko": "배터리 컨디셔닝",
+    "en": "Battery conditioning",
+    "ja": "バッテリーコンディショニング"
+  },
+  "telltale_battery_conditioning": {
+    "ko": "충전소로 가는 길에 배터리 온도를 맞추는 중이에요. 급속 충전이 빨라져요. 고장이 아니에요.",
+    "en": "The battery is being warmed on the way to a charger so fast charging works at full speed. It is not a fault.",
+    "ja": "充電所へ向かう途中でバッテリーの温度を調整しています。急速充電が速くなります。故障ではありません。"
   }
 }

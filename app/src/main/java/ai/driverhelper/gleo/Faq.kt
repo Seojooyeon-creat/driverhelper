@@ -20,7 +20,7 @@ object Faq {
         "parking_curb_lines" to "faq_parking",
         "toll_hipass" to "faq_hipass",
         "accident" to "faq_accident",
-        "refueling" to "faq_fuel",
+        "charging" to "faq_charging",
         "highway" to "faq_highway",
         "emergency_vehicles" to "faq_emergency",
         "school_bus" to "faq_school_bus",

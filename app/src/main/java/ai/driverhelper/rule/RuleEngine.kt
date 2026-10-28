@@ -1,5 +1,6 @@
 package ai.driverhelper.rule
 
+import ai.driverhelper.data.Guides
 import ai.driverhelper.signal.CameraKind
 import ai.driverhelper.signal.DrivingSignal
 import ai.driverhelper.signal.TurnDirection
@@ -101,6 +102,16 @@ class RuleEngine(
             announcedKeys.add(signal.key) -> fire(MessageId.SCHOOL_ZONE, nowMs, schoolZoneDedupMs)
             else -> null
         }
+        is DrivingSignal.Telltale -> telltale(signal)
+        is DrivingSignal.Energy, is DrivingSignal.BrakePedal -> null
+    }
+
+    /** A warning light is explained once each time it comes on; indicators (headlamps, auto hold) are never spoken. */
+    private fun telltale(t: DrivingSignal.Telltale): String? {
+        if (t.type !in Guides.autoExplain) return null
+        val key = "telltale:${t.type}"
+        if (!t.on) { announcedKeys.remove(key); return null }
+        return if (announcedKeys.add(key)) Guides.telltales.getValue(t.type) else null
     }
 
     /** The user picked a language on screen (only possible while parked). */

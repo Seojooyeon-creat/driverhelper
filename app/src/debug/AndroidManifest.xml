@@ -5,4 +5,7 @@
     <uses-permission android:name="pleos.car.permission.NAVI_ROUTE" /> <!-- NaviHelper events -->
     <uses-permission android:name="pleos.car.permission.FUSED_LOCATION" /> <!-- FusedLocation, proximity alerts -->
     <uses-permission android:name="pleos.car.permission.TTS_SERVICE" /> <!-- PleosTtsVoiceGuide -->
+    <uses-permission android:name="pleos.car.permission.CAR_SAFETY" /> <!-- Safety telltales (warning-light explanations) -->
+    <uses-permission android:name="pleos.car.permission.CAR_DRIVE" /> <!-- Brake pedal status (stopped-at-a-light detection) -->
+    <uses-permission android:name="pleos.car.permission.CAR_ENERGY" /> <!-- Fuel percent / EV state of charge (return checklist) -->
 </manifest>

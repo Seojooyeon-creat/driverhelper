@@ -1,0 +1,9 @@
+[
+ { "t": 0, "type": "energy", "percent": 12, "electric": true },
+ { "t": 1000, "type": "telltale", "telltale": "LOW_EV_BATTERY", "on": true },
+ { "t": 4000, "type": "telltale", "telltale": "LOW_EV_BATTERY", "on": true },
+ { "t": 6000, "type": "telltale", "telltale": "TPMS", "on": true },
+ { "t": 9000, "type": "telltale", "telltale": "HEADLAMP_HIGH", "on": true },
+ { "t": 11000, "type": "telltale", "telltale": "LOW_EV_BATTERY", "on": false },
+ { "t": 13000, "type": "telltale", "telltale": "LOW_EV_BATTERY", "on": true }
+]

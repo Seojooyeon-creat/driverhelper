@@ -22,9 +22,15 @@ class ScenarioParseTest {
 
     @Test
     fun mapsEventTypes() {
-        val json = """[{"t":0,"type":"turn","direction":"RIGHT"},{"t":5,"type":"camera","id":"c","kind":"FIXED"}]"""
+        val json = """[{"t":0,"type":"turn","direction":"RIGHT"},{"t":5,"type":"camera","id":"c","kind":"FIXED"},{"t":6,"type":"telltale","telltale":"TPMS","on":true},{"t":7,"type":"energy","percent":40,"electric":true},{"t":8,"type":"brake_pedal","pressed":true}]"""
         assertEquals(
-            listOf(0L to DrivingSignal.TurnSignal(TurnDirection.RIGHT), 5L to DrivingSignal.Camera("c", CameraKind.FIXED, null)),
+            listOf(
+                0L to DrivingSignal.TurnSignal(TurnDirection.RIGHT),
+                5L to DrivingSignal.Camera("c", CameraKind.FIXED, null),
+                6L to DrivingSignal.Telltale("TPMS", true),
+                7L to DrivingSignal.Energy(40, true),
+                8L to DrivingSignal.BrakePedal(true),
+            ),
             parseScenario(json),
         )
     }

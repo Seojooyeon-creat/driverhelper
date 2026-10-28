@@ -1,0 +1,8 @@
+[
+ { "t": 0, "type": "gear", "park": false },
+ { "t": 1000, "type": "camera", "id": "ask-1", "kind": "FIXED", "limit": 50 },
+ { "t": 5000, "type": "camera", "id": "ask-2", "kind": "FIXED", "limit": 60 },
+ { "t": 9000, "type": "camera", "id": "ask-3", "kind": "FIXED", "limit": 80 },
+ { "t": 14000, "type": "brake_pedal", "pressed": true },
+ { "t": 30000, "type": "brake_pedal", "pressed": false }
+]

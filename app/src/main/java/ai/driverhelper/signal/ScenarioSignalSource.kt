@@ -19,7 +19,7 @@ class ScenarioSignalSource(private val context: Context, private val file: Strin
     }
 }
 
-/** `[{ "t": ms from start, "type": turn|door|gear|brake|location|camera, ...fields }]`, sorted by t. */
+/** `[{ "t": ms from start, "type": turn|door|gear|brake|brake_pedal|location|camera|telltale|energy, ...fields }]`, sorted by t. */
 fun parseScenario(json: String): List<Pair<Long, DrivingSignal>> {
     val events = JSONArray(json)
     return (0 until events.length()).map { i ->
@@ -29,12 +29,15 @@ fun parseScenario(json: String): List<Pair<Long, DrivingSignal>> {
             "door" -> DrivingSignal.DoorOpen(e.getBoolean("open"))
             "gear" -> DrivingSignal.Gear(isPark = e.getBoolean("park"))
             "brake" -> DrivingSignal.ParkingBrake(on = e.getBoolean("on"))
+            "brake_pedal" -> DrivingSignal.BrakePedal(pressed = e.getBoolean("pressed"))
             "location" -> DrivingSignal.Location(e.getDouble("lat"), e.getDouble("lon"))
             "camera" -> DrivingSignal.Camera(
                 e.getString("id"),
                 CameraKind.valueOf(e.getString("kind")),
                 if (e.has("limit")) e.getInt("limit") else null,
             )
+            "telltale" -> DrivingSignal.Telltale(e.getString("telltale"), e.getBoolean("on"))
+            "energy" -> DrivingSignal.Energy(e.getInt("percent"), e.optBoolean("electric"))
             else -> error("unknown scenario event type: $type")
         }
     }

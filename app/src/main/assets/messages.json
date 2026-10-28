@@ -884,6 +884,36 @@
     "en": "Return it at the same charge level as at pick-up; otherwise the rental company charges a premium rate. The navigation can find a fast charger near the return point.",
     "ja": "借りた時と同じ充電量で返却します。不足分はレンタカー会社が高い単価で請求します。返却前の急速充電所はナビで探せます。"
   },
+  "ui_greeting": {
+    "ko": "안녕하세요",
+    "en": "Hello",
+    "ja": "こんにちは"
+  },
+  "ui_last_guidance": {
+    "ko": "마지막 안내",
+    "en": "Last guidance",
+    "ja": "最後の案内"
+  },
+  "ui_no_guidance": {
+    "ko": "아직 안내가 없어요",
+    "en": "No guidance yet",
+    "ja": "まだ案内はありません"
+  },
+  "ui_no_guidance_hint": {
+    "ko": "주행 중 받은 스쿨존·카메라·우회전 안내가 여기에 남아요",
+    "en": "School zone, camera and right-turn guidance will appear here as you drive",
+    "ja": "走行中のスクールゾーン・カメラ・右折の案内がここに残ります"
+  },
+  "ui_contacts": {
+    "ko": "연락처",
+    "en": "Contacts",
+    "ja": "連絡先"
+  },
+  "ui_times": {
+    "ko": "%d회",
+    "en": "×%d",
+    "ja": "%d回"
+  },
   "ctrl_start_title": {
     "ko": "시동",
     "en": "Start button",

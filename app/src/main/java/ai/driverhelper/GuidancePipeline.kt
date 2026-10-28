@@ -60,6 +60,24 @@ class GuidancePipeline @Inject constructor(
     private val sessionStartMs = System.currentTimeMillis()
     private var lastLocation: DrivingSignal.Location? = null
 
+    // Waiting at a light: gear not in P and the brake pedal held (or auto hold engaged). The only time we ask anything.
+    private var inPark = true
+    private var brakePressed = false
+    private var autoHold = false
+    private val _idle = MutableStateFlow(false)
+    /** The car is stopped with the driver's foot on the brake (or auto hold), gear not in P. */
+    val idle: StateFlow<Boolean> = _idle
+
+    /** Category waiting to be asked about, and the one currently on screen. */
+    private var pendingAsk: String? = null
+    private val _question = MutableStateFlow<String?>(null)
+    /** Category whose "keep hearing this?" question is on screen, or null. Cleared when the car moves on. */
+    val question: StateFlow<String?> = _question
+
+    private val _energy = MutableStateFlow<DrivingSignal.Energy?>(null)
+    /** Latest fuel level or EV state of charge, for the return checklist. */
+    val energy: StateFlow<DrivingSignal.Energy?> = _energy
+
     private val schoolZones by lazy { parseSchoolZones(context.assets.open("school_zones.json").bufferedReader().use { it.readText() }) }
     private val engine by lazy { RuleEngine(schoolZones = schoolZones) }
 
@@ -119,6 +137,15 @@ class GuidancePipeline @Inject constructor(
                     .collect { signal ->
                         Log.d(TAG, "signal $signal")
                         if (signal is DrivingSignal.Location) lastLocation = signal
+                        if (signal is DrivingSignal.Energy) _energy.value = signal
+                        when (signal) {
+                            is DrivingSignal.Gear -> inPark = signal.isPark
+                            is DrivingSignal.BrakePedal -> brakePressed = signal.pressed
+                            is DrivingSignal.Telltale -> if (signal.type == "AUTO_HOLD") autoHold = signal.on
+                            else -> {}
+                        }
+                        _idle.value = !inPark && (brakePressed || autoHold)
+                        refreshQuestion()
                         engine.onSignal(signal, SystemClock.elapsedRealtime())?.let(::enqueue)
                     }
             } finally {
@@ -142,6 +169,28 @@ class GuidancePipeline @Inject constructor(
         _scenario.value = file
     }
 
+    /** The driver's answer to the on-screen question: keep hearing the category, or switch it off. */
+    fun answer(keep: Boolean) {
+        val category = _question.value ?: return
+        settingsStore.update { it.copy(asked = it.asked + category, enabled = if (keep) it.enabled else it.enabled - category) }
+        pendingAsk = null
+        _question.value = null
+    }
+
+    /** Show the pending question only while stopped (light) or parked; take it down again as soon as the car moves. */
+    private fun refreshQuestion() {
+        val stopped = _idle.value || inPark
+        val pending = pendingAsk
+        if (!stopped) {
+            _question.value = null
+            // Don't leave "keep hearing this?" on screen with no buttons once the car has moved on.
+            if (_lastGuidance.value?.id?.startsWith("ask_") == true) _lastGuidance.value = null
+        } else if (pending != null && _question.value == null) {
+            _question.value = pending
+            enqueue("ask_" + pending.removePrefix("cat_"))
+        }
+    }
+
     fun uiText(messageId: String) = messages.text(messageId, language.value ?: Language.fromLocale())
     fun text(messageId: String, language: Language) = messages.text(messageId, language)
 
@@ -153,9 +202,18 @@ class GuidancePipeline @Inject constructor(
     }
 
     private suspend fun play(id: String) {
-        if (MessageId.category(id) != null) {
+        // A question that queued up behind other guidance is dropped if the car moved on before its turn.
+        if (id.startsWith("ask_") && _question.value == null) return
+        val category = MessageId.category(id)
+        if (category != null) {
             val at = lastLocation
             records.insert(GuidanceRecord(messageId = id, timeMs = System.currentTimeMillis(), lat = at?.lat?.round3(), lon = at?.lon?.round3()))
+            settingsStore.update { it.copy(heard = it.heard + (category to (it.heard[category] ?: 0) + 1)) }
+            val s = settings.value
+            if ((s.heard[category] ?: 0) >= GuidanceSettings.ASK_AFTER && category !in s.asked && pendingAsk == null) {
+                pendingAsk = category
+                refreshQuestion()
+            }
         }
         if (id == MessageId.TRIP_SUMMARY) _tripSummary.value = records.since(sessionStartMs)
         val languages = if (id == MessageId.LANGUAGE_PROMPT) Language.entries else listOf(language.value ?: Language.fromLocale())

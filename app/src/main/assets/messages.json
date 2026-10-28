@@ -953,5 +953,35 @@
     "ko": "충전소로 가는 길에 배터리 온도를 맞추는 중이에요. 급속 충전이 빨라져요. 고장이 아니에요.",
     "en": "The battery is being warmed on the way to a charger so fast charging works at full speed. It is not a fault.",
     "ja": "充電所へ向かう途中でバッテリーの温度を調整しています。急速充電が速くなります。故障ではありません。"
+  },
+  "ask_school_zone": {
+    "ko": "어린이보호구역 안내를 세 번 들으셨어요. 계속 들을까요? 화면에서 골라 주세요.",
+    "en": "You have heard the school-zone guidance three times. Keep hearing it? Choose on the screen.",
+    "ja": "スクールゾーンの案内を3回聞きました。続けて聞きますか？画面で選んでください。"
+  },
+  "ask_camera": {
+    "ko": "단속 카메라 안내를 세 번 들으셨어요. 계속 들을까요? 화면에서 골라 주세요.",
+    "en": "You have heard the speed-camera guidance three times. Keep hearing it? Choose on the screen.",
+    "ja": "取り締まりカメラの案内を3回聞きました。続けて聞きますか？画面で選んでください。"
+  },
+  "ask_section": {
+    "ko": "구간단속 안내를 세 번 들으셨어요. 계속 들을까요? 화면에서 골라 주세요.",
+    "en": "You have heard the average-speed section guidance three times. Keep hearing it? Choose on the screen.",
+    "ja": "区間取り締まりの案内を3回聞きました。続けて聞きますか？画面で選んでください。"
+  },
+  "ask_right_turn": {
+    "ko": "우회전 안내를 세 번 들으셨어요. 계속 들을까요? 화면에서 골라 주세요.",
+    "en": "You have heard the right-turn guidance three times. Keep hearing it? Choose on the screen.",
+    "ja": "右折の案内を3回聞きました。続けて聞きますか？画面で選んでください。"
+  },
+  "ui_keep": {
+    "ko": "계속 듣기",
+    "en": "Keep",
+    "ja": "続ける"
+  },
+  "ui_stop": {
+    "ko": "그만 듣기",
+    "en": "Stop",
+    "ja": "やめる"
   }
 }
